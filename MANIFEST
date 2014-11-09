@@ -1,0 +1,11 @@
+Changes
+share/delhi-map.xml
+lib/Map/Tube/Delhi.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+SIGNATURE
+t/00-load.t
+t/manifest.t
+t/pod.t
