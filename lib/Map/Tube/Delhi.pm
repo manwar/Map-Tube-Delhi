@@ -29,7 +29,7 @@ It currently provides functionality to find the shortest  route between  the  tw
 given  nodes. It   covers  Red  Line and Green Line only for now.I will be adding
 remaining routes very soon.
 
-For more information about Delhi Metro Map, click L<here|http://en.wikipedia.org/wiki/Tokyo_subway>.
+For more information about Delhi Metro Map, click L<here|http://www.delhimetrorail.com/zoom-route-map.aspx>.
 
 =head1 CONSTRUCTOR
 
