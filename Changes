@@ -1,4 +1,7 @@
 Revision history for Map-Tube-Delhi
 
+0.02  Thu Nov 13 20:28:10 2014
+      - Added test script test-case-00.t.
+
 0.01  Sun Nov 09 01:00:01 2014
       - First version, released.
