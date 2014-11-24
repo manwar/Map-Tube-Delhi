@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.04  Mon Nov 24 23:09:05 2014
+      - Restructed the map and organised junction station correctly.
+
 0.03  Fri Nov 14 20:17:10 2014
       - Added test script test-case-01.t.
 
