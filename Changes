@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.05  Tue Nov 25 22:40:20 2014
+      - Updated manifest.t script to run even when the author is running the test.
+      - Tidied up map data and remove the word 'Line' from the line attribute of the station node.
+
 0.04  Mon Nov 24 23:09:05 2014
       - Restructed the map and organised junction station correctly.
 
