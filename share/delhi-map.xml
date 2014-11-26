@@ -1,7 +1,8 @@
 <tube>
   <stations>
-    <station id="INDERLOK"      name="Inderlok"      line="Red,Green"  link="R08,R10,G13"/>
-    <station id="KASHMERE-GATE" name="Kashmere Gate" line="Red,Yellow" link="R13,R15"/>
+    <station id="INDERLOK"        name="Inderlok"        line="Red,Green"  link="R08,R10,ASHOK-PARK-MAIN"/>
+    <station id="KASHMERE-GATE"   name="Kashmere Gate"   line="Red,Yellow" link="R13,R15"/>
+    <station id="ASHOK-PARK-MAIN" name="Ashok Park Main" line="Green"      link="G14,G12,INDERLOK"/>
 
     <station id="R01" name="Rithala"                 line="Red"   link="R02"/>
     <station id="R02" name="Rohini West"             line="Red"   link="R01,R03"/>
@@ -34,8 +35,7 @@
     <station id="G09" name="Paschim Vihar East"      line="Green" link="G10,G8"/>
     <station id="G10" name="Madipur"                 line="Green" link="G11,G9"/>
     <station id="G11" name="Shivaji Park"            line="Green" link="G12,G10"/>
-    <station id="G12" name="Punjabi Bagh"            line="Green" link="G13,G11"/>
-    <station id="G13" name="Ashok Park Main"         line="Green" link="G14,G12,INDERLOK"/>
-    <station id="G14" name="Satguru Ram Singh Marg"  line="Green" link="G13"/>
+    <station id="G12" name="Punjabi Bagh"            line="Green" link="ASHOK-PARK-MAIN,G11"/>
+    <station id="G14" name="Satguru Ram Singh Marg"  line="Green" link="ASHOK-PARK-MAIN"/>
   </stations>
 </tube>

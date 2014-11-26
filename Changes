@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.06  Wed Nov 26 23:13:20 2014
+      - Moved out the junction "Ashok Park Main".
+      - Added Red and Green line stations to the pod document.
+
 0.05  Tue Nov 25 22:40:20 2014
       - Updated manifest.t script to run even when the author is running the test.
       - Tidied up map data and remove the word 'Line' from the line attribute of the station node.

@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION = '0.05';
+$Map::Tube::Delhi::VERSION = '0.06';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
@@ -30,6 +30,64 @@ given  nodes. It   covers  Red  Line and Green Line only for now.I will be addin
 remaining routes very soon.
 
 For more information about Delhi Metro Map, click L<here|http://www.delhimetrorail.com/zoom-route-map.aspx>.
+
+=head1 STATIONS
+
+    +-------------------------------------------------------------------------------+
+    | Junctions                                                                     |
+    +-----------------+------------+------------------------------------------------+
+    | Station         | Line       | Connected to                                   |
+    +-----------------+------------+------------------------------------------------+
+    | Ashok Park Main | Green      | Punjabi Bagh, Satguru Ram Singh Marg, Inderlok |
+    | Inderlok        | Green,Red  | Kanhaiya Nagar, Shastri Nagar, Ashok Park Main |
+    | Kashmere Gate   | Yellow,Red | Tis Hazari, Shastri Park                       |
+    +-----------------+------------+------------------------------------------------+
+
+    +-------------------------------------------------------------------------------+
+    | Line: Red                                                                     |
+    +-------------------------+-----------------------------------------------------+
+    | Station                 | Connected to                                        |
+    +-------------------------+-----------------------------------------------------+
+    | Rithala                 | Rohini West                                         |
+    | Rohini West             | Rithala, Rohini East                                |
+    | Rohini East             | Rohini West, Pitampura                              |
+    | Pitampura               | Rohini East, Kohat Enclave                          |
+    | Kohat Enclave           | Pitampura, Nataji Subhash Place                     |
+    | Netaji Subhash Place    | Kohat Enclave, Keshav Puram                         |
+    | Keshav Puram            | Netaji Subhash Place, Kanhaiya Nagar                |
+    | Kanhaiya Nagar          | Keshav Puram, Inderlok                              |
+    | Shastri Nagar           | Inderlok, Pratap Nagar                              |
+    | Pratap Nagar            | Shastri Nagar, Pulbangash                            |
+    | Pulbangash              | Tis Hazari, Pratap Nagar                            |
+    | Tis Hazari              | Pulbangash, Kashmere Gate                           |
+    | Shastri Park            | Kashmere Gate, Seelampur                            |
+    | Seelampur               | Shastri Park, Welcome                               |
+    | Welcome                 | Seelampur, Shahdra                                  |
+    | Shahdra                 | Welcome, Mansarovar Park                            |
+    | Mansarovar Park         | Shahdra, Jhilmil                                    |
+    | Jhilmil                 | Mansarovar Park, Dilshad Garden                     |
+    | Dilshad Garden          | Jhilmil                                             |
+    +-------------------------+-----------------------------------------------------+
+
+    +-------------------------------------------------------------------------------+
+    | Line: Green                                                                   |
+    +-------------------------+-----------------------------------------------------+
+    | Station                 | Connected to                                        |
+    +-------------------------+-----------------------------------------------------+
+    | Mundka                  | Rajdhani Park                                       |
+    | Rajdhani Park           | Mundka, Nangloi Railway Station                     |
+    | Nangloi Railway Station | Rajdhani Park, Nangloi                              |
+    | Nangloi                 | Nangloi Railway Station, Surajmal Stadium           |
+    | Surajmal Stadium        | Nangloi, Udyog Nagar                                |
+    | Udyog Nagar             | Surajmal Stadium, Peeragarhi                        |
+    | Peeragarhi              | Udyog Nagar, Paschim Vihar West                     |
+    | Paschim Vihar West      | Peeragarhi, Paschim Vihar East                      |
+    | Paschim Vihar East      | Paschim Vihar West, Madipur                         |
+    | Madipur                 | Paschim Vihar East, Shivaji Park                    |
+    | Shivaji Park            | Madipur, Punjabi Bagh                               |
+    | Punjabi Bagh            | Shivaji Park, Ashok Park Main                       |
+    | Satguru Ram Singh Marg  | Ashok Park Main Kirti Nagar                         |
+    +-------------------------+-----------------------------------------------------+
 
 =head1 CONSTRUCTOR
 
