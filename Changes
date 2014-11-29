@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.08  Sat Nov 29 10:00:00 2014
+      - Updated the link to the Delhi Metro Map in the pod document.
+
 0.07  Fri Nov 28 23:36:00 2014
       - Corrected station id of some of the Green Line stations.
       - Added Yellow line stations to the map.
