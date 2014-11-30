@@ -11,9 +11,9 @@ while (<DATA>) {
 }
 
 __DATA__
-Route 1|Pratap Nagar|Shivaji Park|Pratap Nagar, Shastri Nagar, Inderlok, Ashok Park Main, Punjabi Bagh, Shivaji Park
-Route 2|    Pratap Nagar|Shivaji Park|Pratap Nagar, Shastri Nagar, Inderlok, Ashok Park Main, Punjabi Bagh, Shivaji Park
-Route 3|Pratap Nagar|    Shivaji Park|Pratap Nagar, Shastri Nagar, Inderlok, Ashok Park Main, Punjabi Bagh, Shivaji Park
-Route 4|Pratap Nagar    |Shivaji Park|Pratap Nagar, Shastri Nagar, Inderlok, Ashok Park Main, Punjabi Bagh, Shivaji Park
-Route 5|Pratap Nagar|Shivaji Park   |Pratap Nagar, Shastri Nagar, Inderlok, Ashok Park Main, Punjabi Bagh, Shivaji Park
-Route 6|Shastri Nagar|Shivaji Park|Shastri Nagar, Inderlok, Ashok Park Main, Punjabi Bagh, Shivaji Park
+Route 1|Pratap Nagar|Shivaji Park|Pratap Nagar (Red), Shastri Nagar (Red), Inderlok (Red,Green), Ashok Park Main (Green), Punjabi Bagh (Green), Shivaji Park (Green)
+Route 2|    Pratap Nagar|Shivaji Park|Pratap Nagar (Red), Shastri Nagar (Red), Inderlok (Red,Green), Ashok Park Main (Green), Punjabi Bagh (Green), Shivaji Park (Green)
+Route 3|Pratap Nagar|    Shivaji Park|Pratap Nagar (Red), Shastri Nagar (Red), Inderlok (Red,Green), Ashok Park Main (Green), Punjabi Bagh (Green), Shivaji Park (Green)
+Route 4|Pratap Nagar    |Shivaji Park|Pratap Nagar (Red), Shastri Nagar (Red), Inderlok (Red,Green), Ashok Park Main (Green), Punjabi Bagh (Green), Shivaji Park (Green)
+Route 5|Pratap Nagar|Shivaji Park   |Pratap Nagar (Red), Shastri Nagar (Red), Inderlok (Red,Green), Ashok Park Main (Green), Punjabi Bagh (Green), Shivaji Park (Green)
+Route 6|Shastri Nagar|Shivaji Park|Shastri Nagar (Red), Inderlok (Red,Green), Ashok Park Main (Green), Punjabi Bagh (Green), Shivaji Park (Green)

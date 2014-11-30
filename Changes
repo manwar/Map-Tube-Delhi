@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.09  Sun Nov 30 11:32:00 2014
+      - Upgraded to use Map::Tube v2.27 as it brings in new fix and feature.
+      - Updated test case to comply with the updated package Map::Tube.
+
 0.08  Sat Nov 29 10:00:00 2014
       - Updated the link to the Delhi Metro Map in the pod document.
 

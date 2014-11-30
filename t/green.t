@@ -11,4 +11,4 @@ while (<DATA>) {
 }
 
 __DATA__
-Route 1|Nangloi|Peeragarhi|Nangloi, Surajmal Stadium, Udyog Nagar, Peeragarhi
+Route 1|Nangloi|Peeragarhi|Nangloi (Green), Surajmal Stadium (Green), Udyog Nagar (Green), Peeragarhi (Green)

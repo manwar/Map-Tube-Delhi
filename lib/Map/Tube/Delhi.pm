@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION = '0.08';
+$Map::Tube::Delhi::VERSION = '0.09';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.08
+Version 0.09
 
 =cut
 
@@ -151,7 +151,7 @@ insensitive. It returns back the node sequence from START to END.
     my $metro = Map::Tube::Delhi->new;
     my $route = $metro->get_shortest_route('Pratap Nagar', 'Shivaji Park');
 
-    print "Route: $route\n";;
+    print "Route: $route\n";
 
 =head1 AUTHOR
 

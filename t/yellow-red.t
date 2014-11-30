@@ -11,4 +11,4 @@ while (<DATA>) {
 }
 
 __DATA__
-Route 1|Chandni Chowk|Tis Hazari|Chandni Chowk, Kashmere Gate, Tis Hazari
+Route 1|Chandni Chowk|Tis Hazari|Chandni Chowk (Yellow), Kashmere Gate (Red,Yellow), Tis Hazari (Red)

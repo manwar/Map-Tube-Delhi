@@ -11,4 +11,4 @@ while (<DATA>) {
 }
 
 __DATA__
-Route 1|Green Park|Race Course|Green Park, AIIMS, INA, Jor Bagh, Race Course
+Route 1|Green Park|Race Course|Green Park (Yellow), AIIMS (Yellow), INA (Yellow), Jor Bagh (Yellow), Race Course (Yellow)
