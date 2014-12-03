@@ -1,5 +1,10 @@
 Revision history for Map-Tube-Delhi
 
+0.10  Wed Dec 03 21:14:10 2014
+      - Upgraded to use Map::Tube v2.31 as it brings in new fix and feature.
+      - Added test case for case insensitive station name.
+      - Removed SIGNATURE file.
+
 0.09  Sun Nov 30 11:32:00 2014
       - Upgraded to use Map::Tube v2.27 as it brings in new fix and feature.
       - Updated test case to comply with the updated package Map::Tube.

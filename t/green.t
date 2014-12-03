@@ -1,5 +1,5 @@
 use strict; use warnings;
-use Test::More tests => 1;
+use Test::More tests => 2;
 use Map::Tube::Delhi;
 
 my $metro = Map::Tube::Delhi->new;
@@ -12,3 +12,4 @@ while (<DATA>) {
 
 __DATA__
 Route 1|Nangloi|Peeragarhi|Nangloi (Green), Surajmal Stadium (Green), Udyog Nagar (Green), Peeragarhi (Green)
+Route 2|nangloi|Peeragarhi|Nangloi (Green), Surajmal Stadium (Green), Udyog Nagar (Green), Peeragarhi (Green)
