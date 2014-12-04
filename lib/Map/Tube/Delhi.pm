@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION = '0.10';
+$Map::Tube::Delhi::VERSION = '0.11';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =cut
 
@@ -140,10 +140,10 @@ The constructor DO NOT expects parameters.This setup the default node definition
 
 =head1 METHODS
 
-=head2 get_shortest_route()
+=head2 get_shortest_route($from, $to)
 
-This  method  expects  two  parameters START and END node name. Node name is case
-insensitive. It returns back the node sequence from START to END.
+Expects 'from' and 'to' station name and returns ref to a list of objects of type
+L<Map::Tube::Route>. On error it returns an object of type L<Map::Tube::Exception>.
 
     use strict; use warnings;
     use Map::Tube::Delhi;
