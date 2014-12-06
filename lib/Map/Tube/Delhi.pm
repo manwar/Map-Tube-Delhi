@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION = '0.13';
+$Map::Tube::Delhi::VERSION = '0.14';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 
@@ -30,104 +30,6 @@ given  nodes. It covers  Red, Green and Yellow Line only for now.I will be addin
 remaining routes very soon.
 
 For more information about Delhi Metro Map, get L<PDF|http://www.delhimetrorail.com/otherdocuments/route_map.pdf>.
-
-=head1 STATIONS
-
-    +-----------------------------------------------------------------------------------+
-    | Junctions                                                                         |
-    +-----------------+-------------+---------------------------------------------------+
-    | Station         | Line        | Connected to                                      |
-    +-----------------+-------------+---------------------------------------------------+
-    | Ashok Park Main | Green       | Punjabi Bagh, Satguru Ram Singh Marg, Inderlok    |
-    | Inderlok        | Green,Red   | Kanhaiya Nagar, Shastri Nagar, Ashok Park Main    |
-    | Kashmere Gate   | Yellow,Red  | Tis Hazari, Shastri Park                          |
-    | Rajiv Chowk     | Yellow,Blue | New Delhi, Patel Chowk, Barakhamba Road, R K Marg |
-    +-----------------+-------------+---------------------------------------------------+
-
-    +-----------------------------------------------------------------------------------+
-    | Line: Red                                                                         |
-    +-------------------------+---------------------------------------------------------+
-    | Station                 | Connected to                                            |
-    +-------------------------+---------------------------------------------------------+
-    | Rithala                 | Rohini West                                             |
-    | Rohini West             | Rithala, Rohini East                                    |
-    | Rohini East             | Rohini West, Pitampura                                  |
-    | Pitampura               | Rohini East, Kohat Enclave                              |
-    | Kohat Enclave           | Pitampura, Nataji Subhash Place                         |
-    | Netaji Subhash Place    | Kohat Enclave, Keshav Puram                             |
-    | Keshav Puram            | Netaji Subhash Place, Kanhaiya Nagar                    |
-    | Kanhaiya Nagar          | Keshav Puram, Inderlok                                  |
-    | Shastri Nagar           | Inderlok, Pratap Nagar                                  |
-    | Pratap Nagar            | Shastri Nagar, Pulbangash                               |
-    | Pulbangash              | Tis Hazari, Pratap Nagar                                |
-    | Tis Hazari              | Pulbangash, Kashmere Gate                               |
-    | Shastri Park            | Kashmere Gate, Seelampur                                |
-    | Seelampur               | Shastri Park, Welcome                                   |
-    | Welcome                 | Seelampur, Shahdra                                      |
-    | Shahdra                 | Welcome, Mansarovar Park                                |
-    | Mansarovar Park         | Shahdra, Jhilmil                                        |
-    | Jhilmil                 | Mansarovar Park, Dilshad Garden                         |
-    | Dilshad Garden          | Jhilmil                                                 |
-    +-------------------------+---------------------------------------------------------+
-
-    +-----------------------------------------------------------------------------------+
-    | Line: Green                                                                       |
-    +-------------------------+---------------------------------------------------------+
-    | Station                 | Connected to                                            |
-    +-------------------------+---------------------------------------------------------+
-    | Mundka                  | Rajdhani Park                                           |
-    | Rajdhani Park           | Mundka, Nangloi Railway Station                         |
-    | Nangloi Railway Station | Rajdhani Park, Nangloi                                  |
-    | Nangloi                 | Nangloi Railway Station, Surajmal Stadium               |
-    | Surajmal Stadium        | Nangloi, Udyog Nagar                                    |
-    | Udyog Nagar             | Surajmal Stadium, Peeragarhi                            |
-    | Peeragarhi              | Udyog Nagar, Paschim Vihar West                         |
-    | Paschim Vihar West      | Peeragarhi, Paschim Vihar East                          |
-    | Paschim Vihar East      | Paschim Vihar West, Madipur                             |
-    | Madipur                 | Paschim Vihar East, Shivaji Park                        |
-    | Shivaji Park            | Madipur, Punjabi Bagh                                   |
-    | Punjabi Bagh            | Shivaji Park, Ashok Park Main                           |
-    | Satguru Ram Singh Marg  | Ashok Park Main Kirti Nagar                             |
-    +-------------------------+---------------------------------------------------------+
-
-    +-----------------------------------------------------------------------------------+
-    | Line: Yellow                                                                      |
-    +-------------------------+---------------------------------------------------------+
-    | Station                 | Connected to                                            |
-    +-------------------------+---------------------------------------------------------+
-    | Jehangir Puri           | Adarsh Nagar                                            |
-    | Adarsh Nagar            | Jehangir Puri, Azadpur                                  |
-    | Azadpur                 | Adarsh Nagar, Model Town                                |
-    | Model Town              | Model Town, G. T. B. Nagar                              |
-    | G. T. B. Nagar          | G. T. B. Nagar, Vishwavidyalaya                         |
-    | Vishwavidyalaya         | Vidhan Sabha, G. T. B. Nagar                            |
-    | Vidhan Sabha            | Vishwavidyalaya, Civil Lines                            |
-    | Civil Lines             | Vidhan Sabha, Chandni Chowk                             |
-    | Chandni Chowk           | Civil Lines, Chawri Bazar                               |
-    | Chawri Bazar            | Chandni Chowk, New Delhi                                |
-    | New Delhi               | Chawri Bazar, Rajiv Chowk                               |
-    | Patel Chowk             | Rajiv Chowk, Central Secretariate                       |
-    | Central Secretariate    | Patel Chowk, Udyog Bhavan                               |
-    | Udyog Bhavan            | Central Secretariate, Race Course                       |
-    | Race Course             | Udyog Bhavan, Jor Bagh                                  |
-    | Jor Bagh                | Race Course, INA                                        |
-    | INA                     | Jor Bagh, AIIMS                                         |
-    | AIIMS                   | INA, Green Park                                         |
-    | Green Park              | AIIMS, Hauz Khas                                        |
-    | Hauz Khas               | Green Park, Malviya Nagar                               |
-    | Malviya Nagar           | Hauz Khas, Saket                                        |
-    | Saket                   | Malviya Nagar, Qutab Minar                              |
-    | Qutab Minar             | Saket, Chhattarpur                                      |
-    | Chhattarpur             | Qutab Minar, Sultanpur                                  |
-    | Sultanpur               | Chhattarpur, Ghitorni                                   |
-    | Ghitorni                | Sultanpur, Arjangarh                                    |
-    | Arjangarh               | Ghitorni, Guru Dronacharya                              |
-    | Guru Dronacharya        | Arjangarh, Sikanderpur                                  |
-    | Sikanderpur             | Guru Dronacharya, M G Road                              |
-    | M G Road                | Sikanderpur, IFFCO Chowk                                |
-    | IFFCO Chowk             | M G Road, HUDA City Centre                              |
-    | HUDA City Centre        | IFFCO Chowk                                             |
-    +-------------------------+---------------------------------------------------------+
 
 =head1 CONSTRUCTOR
 

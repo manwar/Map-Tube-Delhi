@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.14  Sat Dec 06 22:39:11 2014
+      - Upgraded to use Map::Tube v2.34.
+      - Removed stations name from the pod document as it is becoming too noisy.
+
 0.13  Fri Dec 05 20:33:10 2014
       - Upgraded to use Map::Tube v2.33 as it brings in new fix and feature.
       - Updated unit test to reflect the changes in Map::Tube v2.33.
