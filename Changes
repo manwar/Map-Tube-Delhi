@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Delhi
 
+0.15  Sun Dec 07 19:30:15 2014
+      - Upgraded to use Map::Tube v2.40.
+      - Added 'Violet' line stations to the map data.
+      - Added new attribute "name" to the node "tube" in the map data.
+      - Added new test script for the newly added line 'Violet'.
+
 0.14  Sat Dec 06 22:39:11 2014
       - Upgraded to use Map::Tube v2.34.
       - Removed stations name from the pod document as it is becoming too noisy.

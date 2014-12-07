@@ -14,3 +14,5 @@ t/green.t
 t/red-green.t
 t/yellow.t
 t/yellow-red.t
+t/violet.t
+t/violet-yellow.t

@@ -1,43 +1,60 @@
-<tube>
+<tube name="Delhi Metro">
   <stations>
-    <station id="INDERLOK"        name="Inderlok"        line="Red,Green"   link="R08,R10,ASHOK-PARK-MAIN"/>
-    <station id="KASHMERE-GATE"   name="Kashmere Gate"   line="Red,Yellow"  link="R13,R15,Y08,Y10"/>
-    <station id="ASHOK-PARK-MAIN" name="Ashok Park Main" line="Green"       link="G14,G12,INDERLOK"/>
-    <station id="RAJIV-CHOWK"     name="Rajiv Chowk"     line="Yellow,Blue" link="Y12,Y14"/>
+    <station id="INDERLOK"             name="Inderlok"             line="Red,Green"     link="R08,R10,ASHOK-PARK-MAIN"/>
+    <station id="KASHMERE-GATE"        name="Kashmere Gate"        line="Red,Yellow"    link="R13,R15,Y08,Y10"/>
+    <station id="ASHOK-PARK-MAIN"      name="Ashok Park Main"      line="Green"         link="G14,G12,INDERLOK"/>
+    <station id="RAJIV-CHOWK"          name="Rajiv Chowk"          line="Yellow,Blue"   link="Y12,Y14"/>
+    <station id="CENTRAL-SECRETARIATE" name="Central Secretariate" line="Yellow,Violet" link="Y16,Y14,V15"/>
 
-    <station id="R01" name="Rithala"                 line="Red"   link="R02"/>
-    <station id="R02" name="Rohini West"             line="Red"   link="R01,R03"/>
-    <station id="R03" name="Rohini East"             line="Red"   link="R02,R04"/>
-    <station id="R04" name="Pitampura"               line="Red"   link="R03,R05"/>
-    <station id="R05" name="Kohat Enclave"           line="Red"   link="R04,R06"/>
-    <station id="R06" name="Netaji Subhash Place"    line="Red"   link="R05,R07"/>
-    <station id="R07" name="Keshav Puram"            line="Red"   link="R06,R08"/>
-    <station id="R08" name="Kanhaiya Nagar"          line="Red"   link="R07,INDERLOK"/>
-    <station id="R10" name="Shastri Nagar"           line="Red"   link="INDERLOK,R11"/>
-    <station id="R11" name="Pratap Nagar"            line="Red"   link="R10,R12"/>
-    <station id="R12" name="Pulbangash"              line="Red"   link="R11,R13"/>
-    <station id="R13" name="Tis Hazari"              line="Red"   link="R12,KASHMERE-GATE"/>
-    <station id="R15" name="Shastri Park"            line="Red"   link="KASHMERE-GATE,R16"/>
-    <station id="R16" name="Seelampur"               line="Red"   link="R15,R17"/>
-    <station id="R17" name="Welcome"                 line="Red"   link="R16,R18"/>
-    <station id="R18" name="Shahdara"                line="Red"   link="R17,R19"/>
-    <station id="R19" name="Mansarovar Park"         line="Red"   link="R18,R20"/>
-    <station id="R20" name="Jhilmil"                 line="Red"   link="R19,R21"/>
-    <station id="R21" name="Dilshad Garden"          line="Red"   link="R20"/>
+    <station id="V01" name="Badarpur"                line="Violet" link="V02"/>
+    <station id="V02" name="Tughlakabad"             line="Violet" link="V03,V01"/>
+    <station id="V03" name="Mohan Estate"            line="Violet" link="V04,V02"/>
+    <station id="V04" name="Sarita Vihar"            line="Violet" link="V05,V03"/>
+    <station id="V05" name="Jasola - Apollo"         line="Violet" link="V06,V04"/>
+    <station id="V06" name="Okhla"                   line="Violet" link="V07,V05"/>
+    <station id="V07" name="Govind Puri"             line="Violet" link="V08,V06"/>
+    <station id="V08" name="Kalkaji Mandir"          line="Violet" link="V09,V07"/>
+    <station id="V09" name="Nehru Place"             line="Violet" link="V10,V08"/>
+    <station id="V10" name="Kailash Colony"          line="Violet" link="V11,V09"/>
+    <station id="V11" name="Moolchand"               line="Violet" link="V12,V10"/>
+    <station id="V12" name="Lajpat Nagar"            line="Violet" link="V13,V11"/>
+    <station id="V13" name="Jangpura"                line="Violet" link="V14,V12"/>
+    <station id="V14" name="JLN Stadium"             line="Violet" link="V15,V13"/>
+    <station id="V15" name="Khan Market"             line="Violet" link="V14,CENTRAL-SECRETARIATE"/>
 
-    <station id="G01" name="Mundka"                  line="Green" link="G02"/>
-    <station id="G02" name="Rajdhani Park"           line="Green" link="G03,G01"/>
-    <station id="G03" name="Nangloi Railway Station" line="Green" link="G04,G02"/>
-    <station id="G04" name="Nangloi"                 line="Green" link="G05,G03"/>
-    <station id="G05" name="Surajmal Stadium"        line="Green" link="G06,G04"/>
-    <station id="G06" name="Udyog Nagar"             line="Green" link="G07,G05"/>
-    <station id="G07" name="Peeragarhi"              line="Green" link="G08,G06"/>
-    <station id="G08" name="Paschim Vihar West"      line="Green" link="G09,G07"/>
-    <station id="G09" name="Paschim Vihar East"      line="Green" link="G10,G08"/>
-    <station id="G10" name="Madipur"                 line="Green" link="G11,G09"/>
-    <station id="G11" name="Shivaji Park"            line="Green" link="G12,G10"/>
-    <station id="G12" name="Punjabi Bagh"            line="Green" link="ASHOK-PARK-MAIN,G11"/>
-    <station id="G14" name="Satguru Ram Singh Marg"  line="Green" link="ASHOK-PARK-MAIN"/>
+    <station id="R01" name="Rithala"                 line="Red"    link="R02"/>
+    <station id="R02" name="Rohini West"             line="Red"    link="R01,R03"/>
+    <station id="R03" name="Rohini East"             line="Red"    link="R02,R04"/>
+    <station id="R04" name="Pitampura"               line="Red"    link="R03,R05"/>
+    <station id="R05" name="Kohat Enclave"           line="Red"    link="R04,R06"/>
+    <station id="R06" name="Netaji Subhash Place"    line="Red"    link="R05,R07"/>
+    <station id="R07" name="Keshav Puram"            line="Red"    link="R06,R08"/>
+    <station id="R08" name="Kanhaiya Nagar"          line="Red"    link="R07,INDERLOK"/>
+    <station id="R10" name="Shastri Nagar"           line="Red"    link="INDERLOK,R11"/>
+    <station id="R11" name="Pratap Nagar"            line="Red"    link="R10,R12"/>
+    <station id="R12" name="Pulbangash"              line="Red"    link="R11,R13"/>
+    <station id="R13" name="Tis Hazari"              line="Red"    link="R12,KASHMERE-GATE"/>
+    <station id="R15" name="Shastri Park"            line="Red"    link="KASHMERE-GATE,R16"/>
+    <station id="R16" name="Seelampur"               line="Red"    link="R15,R17"/>
+    <station id="R17" name="Welcome"                 line="Red"    link="R16,R18"/>
+    <station id="R18" name="Shahdara"                line="Red"    link="R17,R19"/>
+    <station id="R19" name="Mansarovar Park"         line="Red"    link="R18,R20"/>
+    <station id="R20" name="Jhilmil"                 line="Red"    link="R19,R21"/>
+    <station id="R21" name="Dilshad Garden"          line="Red"    link="R20"/>
+
+    <station id="G01" name="Mundka"                  line="Green"  link="G02"/>
+    <station id="G02" name="Rajdhani Park"           line="Green"  link="G03,G01"/>
+    <station id="G03" name="Nangloi Railway Station" line="Green"  link="G04,G02"/>
+    <station id="G04" name="Nangloi"                 line="Green"  link="G05,G03"/>
+    <station id="G05" name="Surajmal Stadium"        line="Green"  link="G06,G04"/>
+    <station id="G06" name="Udyog Nagar"             line="Green"  link="G07,G05"/>
+    <station id="G07" name="Peeragarhi"              line="Green"  link="G08,G06"/>
+    <station id="G08" name="Paschim Vihar West"      line="Green"  link="G09,G07"/>
+    <station id="G09" name="Paschim Vihar East"      line="Green"  link="G10,G08"/>
+    <station id="G10" name="Madipur"                 line="Green"  link="G11,G09"/>
+    <station id="G11" name="Shivaji Park"            line="Green"  link="G12,G10"/>
+    <station id="G12" name="Punjabi Bagh"            line="Green"  link="ASHOK-PARK-MAIN,G11"/>
+    <station id="G14" name="Satguru Ram Singh Marg"  line="Green"  link="ASHOK-PARK-MAIN"/>
 
     <station id="Y01" name="Jenhangir Puri"          line="Yellow" link="Y02"/>
     <station id="Y02" name="Adarsh Nagar"            line="Yellow" link="Y03,Y01"/>
@@ -50,9 +67,8 @@
     <station id="Y10" name="Chandni Chowk"           line="Yellow" link="Y11,KASHMERE-GATE"/>
     <station id="Y11" name="Chawri Bazar"            line="Yellow" link="Y12,Y10"/>
     <station id="Y12" name="New Delhi"               line="Yellow" link="RAJIV-CHOWK,Y11"/>
-    <station id="Y14" name="Patel Chowk"             line="Yellow" link="Y15,RAJIV-CHOWK"/>
-    <station id="Y15" name="Central Secretariate"    line="Yellow" link="Y16,Y14"/>
-    <station id="Y16" name="Udyog Bhavan"            line="Yellow" link="Y17,Y15"/>
+    <station id="Y14" name="Patel Chowk"             line="Yellow" link="CENTRAL-SECRETARIATE,RAJIV-CHOWK"/>
+    <station id="Y16" name="Udyog Bhavan"            line="Yellow" link="Y17,CENTRAL-SECRETARIATE"/>
     <station id="Y17" name="Race Course"             line="Yellow" link="Y18,Y16"/>
     <station id="Y18" name="Jor Bagh"                line="Yellow" link="Y19,Y17"/>
     <station id="Y19" name="INA"                     line="Yellow" link="Y20,Y18"/>
