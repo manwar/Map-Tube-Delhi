@@ -16,3 +16,5 @@ t/yellow.t
 t/yellow-red.t
 t/violet.t
 t/violet-yellow.t
+t/orange.t
+t/orange-yellow.t

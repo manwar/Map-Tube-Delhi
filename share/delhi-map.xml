@@ -3,8 +3,15 @@
     <station id="INDERLOK"             name="Inderlok"             line="Red,Green"     link="R08,R10,ASHOK-PARK-MAIN"/>
     <station id="KASHMERE-GATE"        name="Kashmere Gate"        line="Red,Yellow"    link="R13,R15,Y08,Y10"/>
     <station id="ASHOK-PARK-MAIN"      name="Ashok Park Main"      line="Green"         link="G14,G12,INDERLOK"/>
-    <station id="RAJIV-CHOWK"          name="Rajiv Chowk"          line="Yellow,Blue"   link="Y12,Y14"/>
+    <station id="RAJIV-CHOWK"          name="Rajiv Chowk"          line="Yellow,Blue"   link="NEW-DELHI,Y14"/>
     <station id="CENTRAL-SECRETARIATE" name="Central Secretariate" line="Yellow,Violet" link="Y16,Y14,V15"/>
+    <station id="NEW-DELHI"            name="New Delhi"            line="Yellow,Orange" link="RAJIV-CHOWK,Y11,O05"/>
+    <station id="DWARKA-SECTOR-21"     name="Dwarka Sector 21"     line="Orange,Blue"   link="O02"/>
+
+    <station id="O02" name="I. G. I. Airport"        line="Orange" link="DWARKA-SECTOR-21,O03"/>
+    <station id="O03" name="Delhi Aero City"         line="Orange" link="O02,O04"/>
+    <station id="O04" name="Dhaula Kuan"             line="Orange" link="O03,O05"/>
+    <station id="O05" name="Shivaji Stadium"         line="Orange" link="O04,NEW-DELHI"/>
 
     <station id="V01" name="Badarpur"                line="Violet" link="V02"/>
     <station id="V02" name="Tughlakabad"             line="Violet" link="V03,V01"/>
@@ -65,8 +72,7 @@
     <station id="Y07" name="Vidhan Sabha"            line="Yellow" link="Y08,Y06"/>
     <station id="Y08" name="Civil Lines"             line="Yellow" link="KASHMERE-GATE,Y07"/>
     <station id="Y10" name="Chandni Chowk"           line="Yellow" link="Y11,KASHMERE-GATE"/>
-    <station id="Y11" name="Chawri Bazar"            line="Yellow" link="Y12,Y10"/>
-    <station id="Y12" name="New Delhi"               line="Yellow" link="RAJIV-CHOWK,Y11"/>
+    <station id="Y11" name="Chawri Bazar"            line="Yellow" link="NEW-DELHI,Y10"/>
     <station id="Y14" name="Patel Chowk"             line="Yellow" link="CENTRAL-SECRETARIATE,RAJIV-CHOWK"/>
     <station id="Y16" name="Udyog Bhavan"            line="Yellow" link="Y17,CENTRAL-SECRETARIATE"/>
     <station id="Y17" name="Race Course"             line="Yellow" link="Y18,Y16"/>
