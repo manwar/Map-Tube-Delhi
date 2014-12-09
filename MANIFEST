@@ -18,3 +18,5 @@ t/violet.t
 t/violet-yellow.t
 t/orange.t
 t/orange-yellow.t
+t/blue.t
+t/blue-orange.t

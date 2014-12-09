@@ -3,10 +3,60 @@
     <station id="INDERLOK"             name="Inderlok"             line="Red,Green"     link="R08,R10,ASHOK-PARK-MAIN"/>
     <station id="KASHMERE-GATE"        name="Kashmere Gate"        line="Red,Yellow"    link="R13,R15,Y08,Y10"/>
     <station id="ASHOK-PARK-MAIN"      name="Ashok Park Main"      line="Green"         link="G14,G12,INDERLOK"/>
-    <station id="RAJIV-CHOWK"          name="Rajiv Chowk"          line="Yellow,Blue"   link="NEW-DELHI,Y14"/>
+    <station id="RAJIV-CHOWK"          name="Rajiv Chowk"          line="Yellow,Blue"   link="NEW-DELHI,Y14,B28,B30"/>
     <station id="CENTRAL-SECRETARIATE" name="Central Secretariate" line="Yellow,Violet" link="Y16,Y14,V15"/>
     <station id="NEW-DELHI"            name="New Delhi"            line="Yellow,Orange" link="RAJIV-CHOWK,Y11,O05"/>
-    <station id="DWARKA-SECTOR-21"     name="Dwarka Sector 21"     line="Orange,Blue"   link="O02"/>
+    <station id="DWARKA-SECTOR-21"     name="Dwarka Sector 21"     line="Orange,Blue"   link="B02,O02"/>
+    <station id="YAMUNA-BANK"          name="Yamuna Bank"          line="Blue"          link="B33,LAXMI-NAGAR,AKSHARDHAM"/>
+    <station id="LAXMI-NAGAR"          name="Laxmi Nagar"          line="Blue"          link="B36,YAMUNA-BANK,AKSHARDHAM"/>
+    <station id="AKSHARDHAM"           name="Akshardham"           line="Blue"          link="LAXMI-NAGAR,B43,YAMUNA-BANK"/>
+
+    <station id="B02" name="Dwarka Sector 8"         line="Blue"   link="B03,DWARKA-SECTOR-21"/>
+    <station id="B03" name="Dwarka Sector 9"         line="Blue"   link="B04,B02"/>
+    <station id="B04" name="Dwarka Sector 10"        line="Blue"   link="B05,B03"/>
+    <station id="B05" name="Dwarka Sector 11"        line="Blue"   link="B06,B04"/>
+    <station id="B06" name="Dwarka Sector 12"        line="Blue"   link="B07,B05"/>
+    <station id="B07" name="Dwarka Sector 13"        line="Blue"   link="B08,B06"/>
+    <station id="B08" name="Dwarka Sector 14"        line="Blue"   link="B09,B07"/>
+    <station id="B09" name="Dwarka"                  line="Blue"   link="B10,B08"/>
+    <station id="B10" name="Dwarka Mor"              line="Blue"   link="B11,B09"/>
+    <station id="B11" name="Nawada"                  line="Blue"   link="B12,B10"/>
+    <station id="B12" name="Uttam Nagar West"        line="Blue"   link="B13,B11"/>
+    <station id="B13" name="Uttam Nagar East"        line="Blue"   link="B14,B12"/>
+    <station id="B14" name="Janakpuri West"          line="Blue"   link="B15,B13"/>
+    <station id="B15" name="Janakpuri East"          line="Blue"   link="B16,B14"/>
+    <station id="B16" name="Tilak Nagar"             line="Blue"   link="B17,B15"/>
+    <station id="B17" name="Subhash Nagar"           line="Blue"   link="B18,B16"/>
+    <station id="B18" name="Tagore Garden"           line="Blue"   link="B19,B17"/>
+    <station id="B19" name="Rajouri Garden"          line="Blue"   link="B20,B18"/>
+    <station id="B20" name="Ramesh Nagar"            line="Blue"   link="B21,B19"/>
+    <station id="B21" name="Moti Nagar"              line="Blue"   link="B22,B20"/>
+    <station id="B22" name="Kirti Nagar"             line="Blue"   link="B23,B21"/>
+    <station id="B23" name="Shadipur"                line="Blue"   link="B24,B22"/>
+    <station id="B24" name="Patel Nagar"             line="Blue"   link="B25,B23"/>
+    <station id="B25" name="Rajendra Place"          line="Blue"   link="B26,B24"/>
+    <station id="B26" name="Karol Bagh"              line="Blue"   link="B27,B25"/>
+    <station id="B27" name="Jhandewalan"             line="Blue"   link="B28,B26"/>
+    <station id="B28" name="Ramkrishna Ashram Marg"  line="Blue"   link="RAJIV-CHOWK,B27"/>
+    <station id="B30" name="Barakhamba Road"         line="Blue"   link="B31,RAJIV-CHOWK"/>
+    <station id="B31" name="Mandi House"             line="Blue"   link="B32,B30"/>
+    <station id="B32" name="Pragati Maidan"          line="Blue"   link="B33,B31"/>
+    <station id="B33" name="Indraprastha"            line="Blue"   link="YAMUNA-BANK,B32"/>
+    <station id="B36" name="Nirman Vihar"            line="Blue"   link="B37,LAXMI-NAGAR"/>
+    <station id="B37" name="Preet Vihar"             line="Blue"   link="B38,B36"/>
+    <station id="B38" name="Karkarduma"              line="Blue"   link="B39,B37"/>
+    <station id="B39" name="Anand Vihar ISBT"        line="Blue"   link="B40,B38"/>
+    <station id="B40" name="Kaushambi"               line="Blue"   link="B41,B39"/>
+    <station id="B41" name="Vaishali"                line="Blue"   link="B40"/>
+    <station id="B43" name="Mayur Vihar"             line="Blue"   link="B44,AKSHARDHAM"/>
+    <station id="B44" name="Mayur Vihar Extn."       line="Blue"   link="B45,B43"/>
+    <station id="B45" name="New Ashok Nagar"         line="Blue"   link="B46,B44"/>
+    <station id="B46" name="Noida Sector 15"         line="Blue"   link="B47,B45"/>
+    <station id="B47" name="Noida Sector 16"         line="Blue"   link="B48,B46"/>
+    <station id="B48" name="Noida Sector 18"         line="Blue"   link="B49,B47"/>
+    <station id="B49" name="Botanical Garden"        line="Blue"   link="B50,B48"/>
+    <station id="B50" name="Golf Course"             line="Blue"   link="B51,B49"/>
+    <station id="B51" name="Noida City Centre"       line="Blue"   link="B50"/>
 
     <station id="O02" name="I. G. I. Airport"        line="Orange" link="DWARKA-SECTOR-21,O03"/>
     <station id="O03" name="Delhi Aero City"         line="Orange" link="O02,O04"/>

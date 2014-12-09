@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION = '0.16';
+$Map::Tube::Delhi::VERSION = '0.17';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.16
+Version 0.17
 
 =cut
 
@@ -26,8 +26,23 @@ with 'Map::Tube';
 =head1 DESCRIPTION
 
 It currently provides functionality to find the shortest  route between  the  two
-given  nodes. It covers Red, Green, Yellow, Violet and Orange Line only for now.I
-will be adding remaining routes very soon.
+given stations. It covers the following lines of Delhi Metro:
+
+=over 2
+
+=item * Red Line
+
+=item * Blue Line
+
+=item * Green Line
+
+=item * Yellow Line
+
+=item * Violet Line
+
+=item * Orange Line
+
+=back
 
 For more information about Delhi Metro Map, get L<PDF|http://www.delhimetrorail.com/otherdocuments/route_map.pdf>.
 
