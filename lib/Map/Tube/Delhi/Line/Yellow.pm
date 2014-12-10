@@ -1,21 +1,21 @@
 package Map::Tube::Delhi::Line::Yellow;
 
-$Map::Tube::Delhi::Line::Yellow::VERSION = '0.18';
+$Map::Tube::Delhi::Line::Yellow::VERSION = '0.19';
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Yellow - List stations for Delhi Metro Yellow Line.
+Map::Tube::Delhi::Line::Yellow - Delhi Metro Yellow Line stations.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =head1 DESCRIPTION
 
-Station belonging to the Yellow Line of Delhi Metro as listed below
+Delhi Metro Yellow Line stations.
 
     +----------------------+-----------------------------------+
-    | Name                 | Linked To                         |
+    | Station Name         | Linked To                         |
     +----------------------+-----------------------------------+
     | HUDA City Centre     | IFFCO Chowk                       |
     | IFFCO Chowk          | M G Road, HUDA City Centre        |

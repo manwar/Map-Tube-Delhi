@@ -1,21 +1,21 @@
 package Map::Tube::Delhi::Line::Blue;
 
-$Map::Tube::Delhi::Line::Blue::VERSION = '0.18';
+$Map::Tube::Delhi::Line::Blue::VERSION = '0.19';
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Blue - List stations for Delhi Metro Blue Line.
+Map::Tube::Delhi::Line::Blue - Delhi Metro Blue Line stations.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =head1 DESCRIPTION
 
-Station belonging to the Blue Line of Delhi Metro as listed below
+Delhi Metro Blue Line stations.
 
     +--------------------------+-----------------------------------------+
-    | Name                     | Linked To                               |
+    | Station Name             | Linked To                               |
     +--------------------------+-----------------------------------------+
     | Dwarka Sector 21         | Dwarka Sector 8                         |
     | Dwarka Sector 8          | Dwarka Sector 9, Dwarka Sector 21       |
@@ -59,14 +59,14 @@ Station belonging to the Blue Line of Delhi Metro as listed below
     | Kaushambi                | Vaishali, Anand Vihar ISBT              |
     | Vaishali                 | Kaushambi                               |
     | Akshardham               | Yamuna Bank, Laxmi Nagar, Mayur Vihar I |
-    | Mayur Vihar I            | Mayur Vihar Extn.                       |
-    | Mayur Vihar Extn.        | New Ashok Nagar                         |
-    | New Ashok Nagar          | Noida Sector 15                         |
-    | Noida Sector 15          | Noida Sector 16                         |
-    | Noida Sector 16          | Noida Sector 18                         |
-    | Noida Sector 18          | Botanical Garden                        |
-    | Botanical Garden         | Golf Course                             |
-    | Golf Course              | Noida City Centre                       |
+    | Mayur Vihar I            | Mayur Vihar Extn., Akshardham           |
+    | Mayur Vihar Extn.        | New Ashok Nagar, Mayur Vihar I          |
+    | New Ashok Nagar          | Noida Sector 15, Mayur Vihar Extn.      |
+    | Noida Sector 15          | Noida Sector 16, New Ashok Nagar        |
+    | Noida Sector 16          | Noida Sector 18, Noida Sector 15        |
+    | Noida Sector 18          | Botanical Garden, Noida Sector 16       |
+    | Botanical Garden         | Golf Course, Noida Sector 18            |
+    | Golf Course              | Noida City Centre, Botanical Garden     |
     | Noida City Centre        | Golf Course                             |
     +--------------------------+-----------------------------------------+
 

@@ -1,5 +1,10 @@
 Revision history for Map-Tube-Delhi
 
+0.19  Wed Dec 10 21:15:20 2014
+      - Added missing links to the Blue Line.
+      - Fixed the typo in station name of Green Line.
+      - General tidied up the description of Map::Tube::Delhi::Line::*.pm
+
 0.18  Wed Dec 10 18:28:20 2014
       - Corrected station for "Mayur Vihar I"
       - Added station names of each line as a seperate package Map::Tube::Delhi::Line::*.pm

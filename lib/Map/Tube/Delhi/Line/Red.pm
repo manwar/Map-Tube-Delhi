@@ -1,21 +1,21 @@
 package Map::Tube::Delhi::Line::Red;
 
-$Map::Tube::Delhi::Line::Red::VERSION = '0.18';
+$Map::Tube::Delhi::Line::Red::VERSION = '0.19';
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Red - List stations for Delhi Metro Red Line.
+Map::Tube::Delhi::Line::Red - Delhi Metro Red Line stations.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =head1 DESCRIPTION
 
-Station belonging to the Red Line of Delhi Metro as listed below
+Delhi Metro Red Line stations.
 
     +----------------------+--------------------------------------+
-    | Name                 | Linked To                            |
+    | Station Name         | Linked To                            |
     +----------------------+--------------------------------------+
     | Rithala              | Rohini West                          |
     | Rohini West          | Rithala, Rohini East                 |

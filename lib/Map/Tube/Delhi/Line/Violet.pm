@@ -1,21 +1,21 @@
 package Map::Tube::Delhi::Line::Violet;
 
-$Map::Tube::Delhi::Line::Violet::VERSION = '0.18';
+$Map::Tube::Delhi::Line::Violet::VERSION = '0.19';
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Violet - List stations for Delhi Metro Violet Line.
+Map::Tube::Delhi::Line::Violet - Delhi Metro Violet Line stations.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =head1 DESCRIPTION
 
-Station belonging to the Violet Line of Delhi Metro as listed below
+Delhi Metro Violet Line stations.
 
     +----------------------+--------------------------------------+
-    | Name                 | Linked To                            |
+    | Station Name         | Linked To                            |
     +----------------------+--------------------------------------+
     | Central Secretariate | Khan Market                          |
     | Khan Market          | JLN Stadium, Central Secretariate    |

@@ -1,21 +1,21 @@
 package Map::Tube::Delhi::Line::Orange;
 
-$Map::Tube::Delhi::Line::Orange::VERSION = '0.18';
+$Map::Tube::Delhi::Line::Orange::VERSION = '0.19';
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Orange - List stations for Delhi Metro Orange Line.
+Map::Tube::Delhi::Line::Orange - Delhi Metro Orange Line stations.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =head1 DESCRIPTION
 
-Station belonging to the Orange Line of Delhi Metro as listed below
+Delhi Metro Orange Line stations.
 
     +-------------------+--------------------------------------+
-    | Name              | Linked To                            |
+    | Station Name      | Linked To                            |
     +-------------------+--------------------------------------+
     | Dwarka Sector 21  | I. G. I. Airport                     |
     | I. G. I. Airport  | Delhi Aero City, Dwarka Sector 21    |
