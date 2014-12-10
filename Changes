@@ -1,5 +1,10 @@
 Revision history for Map-Tube-Delhi
 
+0.18  Wed Dec 10 18:28:20 2014
+      - Corrected station for "Mayur Vihar I"
+      - Added station names of each line as a seperate package Map::Tube::Delhi::Line::*.pm
+      - Updated the pod document of package Map::Tube::Delhi and linked them.
+
 0.17  Tue Dec 09 21:28:19 2014
       - Added 'Blue' line route to the map, which completes the entire Delhi Metro.
       - Added new test script for the newly added line 'Blue'.

@@ -1,74 +1,39 @@
-package Map::Tube::Delhi;
+package Map::Tube::Delhi::Line::Violet;
 
-$Map::Tube::Delhi::VERSION = '0.18';
+$Map::Tube::Delhi::Line::Violet::VERSION = '0.18';
 
 =head1 NAME
 
-Map::Tube::Delhi - Interface to the Delhi Metro Map.
+Map::Tube::Delhi::Line::Violet - List stations for Delhi Metro Violet Line.
 
 =head1 VERSION
 
 Version 0.18
 
-=cut
-
-use 5.006;
-use Data::Dumper;
-use File::Share ':all';
-
-use Moo;
-use namespace::clean;
-
-has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-Delhi', 'delhi-map.xml') });
-
-with 'Map::Tube';
-
 =head1 DESCRIPTION
 
-It currently provides functionality to find the shortest  route between  the  two
-given stations. It covers the following lines of Delhi Metro:
+Station belonging to the Violet Line of Delhi Metro as listed below
 
-=over 2
-
-=item * L<Red Line|Map::Tube::Delhi::Line::Red>
-
-=item * L<Blue Line|Map::Tube::Delhi::Line::Blue>
-
-=item * L<Green Line|Map::Tube::Delhi::Line::Green>
-
-=item * L<Yellow Line|Map::Tube::Delhi::Line::Yellow>
-
-=item * L<Violet Line|Map::Tube::Delhi::Line::Violet>
-
-=item * L<Orange Line|Map::Tube::Delhi::Line::Orange>
-
-=back
-
-For more information about Delhi Metro Map, get L<PDF|http://www.delhimetrorail.com/otherdocuments/route_map.pdf>.
-
-=head1 CONSTRUCTOR
-
-The constructor DO NOT expects parameters.This setup the default node definitions.
-
-    use strict; use warnings;
-    use Map::Tube::Delhi;
-
-    my $metro = Map::Tube::Delhi->new;
-
-=head1 METHODS
-
-=head2 get_shortest_route($from, $to)
-
-Expects 'from' and 'to' station name and returns an object of type L<Map::Tube::Route>.
-On error it returns an object of type L<Map::Tube::Exception>.
-
-    use strict; use warnings;
-    use Map::Tube::Delhi;
-
-    my $metro = Map::Tube::Delhi->new;
-    my $route = $metro->get_shortest_route('Pratap Nagar', 'Shivaji Park');
-
-    print "Route: $route\n";
+    +----------------------+--------------------------------------+
+    | Name                 | Linked To                            |
+    +----------------------+--------------------------------------+
+    | Central Secretariate | Khan Market                          |
+    | Khan Market          | JLN Stadium, Central Secretariate    |
+    | JLN Stadium          | Jangpura, Khan Market                |
+    | Jangpura             | Lajpat Nagar, JLN Stadium            |
+    | Lajpat Nagar         | Moolchand, Jangpura                  |
+    | Moolchand            | Kailash Colony, Lajpat Nagar         |
+    | Kailash Colony       | Nehru Place, Moolchand               |
+    | Nehru Place          | Kalkaji Mandir, Kailash Colony       |
+    | Kalkaji Mandir       | Govind Puri, Nehru Place             |
+    | Govind Puri          | Okhla, Kalkaji Mandir                |
+    | Okhla                | Jasola - Apollo, Govind Puri         |
+    | Jasola - Apollo      | Sarita Vihar, Okhla                  |
+    | Sarita Vihar         | Mohan Estate, Jasola - Apollo        |
+    | Mohan Estate         | Tughlakabad, Sarita Vihar            |
+    | Tughlakabad          | Badarpur, Mohan Estate               |
+    | Badarpur             | Tughlakabad                          |
+    +----------------------+--------------------------------------+
 
 =head1 AUTHOR
 
@@ -89,7 +54,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Delhi
+    perldoc Map::Tube::Delhi::Line::Violet
 
 You can also look for information at:
 
@@ -153,4 +118,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Delhi
+1; # End of Map::Tube::Delhi::Line::Violet

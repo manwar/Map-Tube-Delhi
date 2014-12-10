@@ -1,6 +1,12 @@
 Changes
 share/delhi-map.xml
 lib/Map/Tube/Delhi.pm
+lib/Map/Tube/Delhi/Line/Red.pm
+lib/Map/Tube/Delhi/Line/Blue.pm
+lib/Map/Tube/Delhi/Line/Green.pm
+lib/Map/Tube/Delhi/Line/Orange.pm
+lib/Map/Tube/Delhi/Line/Yellow.pm
+lib/Map/Tube/Delhi/Line/Violet.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP

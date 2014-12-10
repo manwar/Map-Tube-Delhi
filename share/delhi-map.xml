@@ -48,7 +48,7 @@
     <station id="B39" name="Anand Vihar ISBT"        line="Blue"   link="B40,B38"/>
     <station id="B40" name="Kaushambi"               line="Blue"   link="B41,B39"/>
     <station id="B41" name="Vaishali"                line="Blue"   link="B40"/>
-    <station id="B43" name="Mayur Vihar"             line="Blue"   link="B44,AKSHARDHAM"/>
+    <station id="B43" name="Mayur Vihar I"           line="Blue"   link="B44,AKSHARDHAM"/>
     <station id="B44" name="Mayur Vihar Extn."       line="Blue"   link="B45,B43"/>
     <station id="B45" name="New Ashok Nagar"         line="Blue"   link="B46,B44"/>
     <station id="B46" name="Noida Sector 15"         line="Blue"   link="B47,B45"/>
