@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Violet;
 
-$Map::Tube::Delhi::Line::Violet::VERSION = '0.21';
+$Map::Tube::Delhi::Line::Violet::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi::Line::Violet - Delhi Metro Violet Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -36,6 +36,8 @@ Delhi Metro Violet Line stations.
     | Tughlakabad           | Badarpur, Mohan Estate               |
     | Badarpur              | Tughlakabad                          |
     +-----------------------+--------------------------------------+
+
+=head2 NOTE
 
 =over 2
 

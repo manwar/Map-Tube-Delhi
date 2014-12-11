@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Green;
 
-$Map::Tube::Delhi::Line::Green::VERSION = '0.21';
+$Map::Tube::Delhi::Line::Green::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi::Line::Green - Delhi Metro Green Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -36,6 +36,8 @@ Delhi Metro Green Line stations.
     | Satguru Ram Singh Marg  | Kirti Nagar, Ashok Park Main                   |
     | Kirti Nagar             | Satguru Ram Singh Marg                         |
     +-------------------------+------------------------------------------------+
+
+=head2 NOTE
 
 =over 2
 

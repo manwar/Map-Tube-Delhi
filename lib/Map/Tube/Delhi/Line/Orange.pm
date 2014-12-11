@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Orange;
 
-$Map::Tube::Delhi::Line::Orange::VERSION = '0.21';
+$Map::Tube::Delhi::Line::Orange::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi::Line::Orange - Delhi Metro Orange Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -26,6 +26,8 @@ Delhi Metro Orange Line stations.
     | Shivaji Stadium    | New Delhi, Dhaula Kuan               |
     | New Delhi          | Shivaji Stadium                      |
     +--------------------+--------------------------------------+
+
+=head2 NOTE
 
 =over 2
 

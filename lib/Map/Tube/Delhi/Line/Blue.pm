@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Blue;
 
-$Map::Tube::Delhi::Line::Blue::VERSION = '0.21';
+$Map::Tube::Delhi::Line::Blue::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi::Line::Blue - Delhi Metro Blue Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -71,6 +71,8 @@ Delhi Metro Blue Line stations.
     | Golf Course             | Noida City Centre, Botanical Garden     |
     | Noida City Centre       | Golf Course                             |
     +-------------------------+-----------------------------------------+
+
+=head2 NOTE
 
 =over 2
 

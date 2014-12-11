@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Yellow;
 
-$Map::Tube::Delhi::Line::Yellow::VERSION = '0.21';
+$Map::Tube::Delhi::Line::Yellow::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi::Line::Yellow - Delhi Metro Yellow Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -54,6 +54,8 @@ Delhi Metro Yellow Line stations.
     | Adarsh Nagar          | Jahangir Puri, Azadpur            |
     | Jahangir Puri         | Adarsh Nagar                      |
     +-----------------------+-----------------------------------+
+
+=head2 NOTE
 
 =over 2
 

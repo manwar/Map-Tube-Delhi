@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.22  Thu Dec 11 23:50:20 2014
+      - Added section "NOTE" for linked stations.
+
 0.21  Thu Dec 11 12:39:20 2014
       - Tidied up linked stations.
       - Fixed the typo in station names of Blue Line.

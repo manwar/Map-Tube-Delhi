@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Red;
 
-$Map::Tube::Delhi::Line::Red::VERSION = '0.21';
+$Map::Tube::Delhi::Line::Red::VERSION = '0.22';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi::Line::Red - Delhi Metro Red Line stations.
 
 =head1 VERSION
 
-Version 0.21
+Version 0.22
 
 =head1 DESCRIPTION
 
@@ -41,6 +41,8 @@ Delhi Metro Red Line stations.
     | Jhilmil               | Mansarovar Park, Dishad Garden       |
     | Dilshad Garden        | Jhilmil                              |
     +-----------------------+--------------------------------------+
+
+=head2 NOTE
 
 =over 2
 
