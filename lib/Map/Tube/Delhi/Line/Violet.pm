@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Violet;
 
-$Map::Tube::Delhi::Line::Violet::VERSION = '0.19';
+$Map::Tube::Delhi::Line::Violet::VERSION = '0.20';
 
 =head1 NAME
 
@@ -8,32 +8,36 @@ Map::Tube::Delhi::Line::Violet - Delhi Metro Violet Line stations.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =head1 DESCRIPTION
 
 Delhi Metro Violet Line stations.
 
-    +----------------------+--------------------------------------+
-    | Station Name         | Linked To                            |
-    +----------------------+--------------------------------------+
-    | Central Secretariate | Khan Market                          |
-    | Khan Market          | JLN Stadium, Central Secretariate    |
-    | JLN Stadium          | Jangpura, Khan Market                |
-    | Jangpura             | Lajpat Nagar, JLN Stadium            |
-    | Lajpat Nagar         | Moolchand, Jangpura                  |
-    | Moolchand            | Kailash Colony, Lajpat Nagar         |
-    | Kailash Colony       | Nehru Place, Moolchand               |
-    | Nehru Place          | Kalkaji Mandir, Kailash Colony       |
-    | Kalkaji Mandir       | Govind Puri, Nehru Place             |
-    | Govind Puri          | Okhla, Kalkaji Mandir                |
-    | Okhla                | Jasola - Apollo, Govind Puri         |
-    | Jasola - Apollo      | Sarita Vihar, Okhla                  |
-    | Sarita Vihar         | Mohan Estate, Jasola - Apollo        |
-    | Mohan Estate         | Tughlakabad, Sarita Vihar            |
-    | Tughlakabad          | Badarpur, Mohan Estate               |
-    | Badarpur             | Tughlakabad                          |
-    +----------------------+--------------------------------------+
+    +------------------------------------+--------------------------------------+
+    |                                    |                                      |
+    | Station Name                       | Linked To                            |
+    |                                    |                                      |
+    +------------------------------------+--------------------------------------+
+    | Central Secretariate               | Khan Market                          |
+    | L<Map::Tube::Delhi::Line::Yellow>  |                                      |
+    +------------------------------------+--------------------------------------+
+    | Khan Market                        | JLN Stadium, Central Secretariate    |
+    | JLN Stadium                        | Jangpura, Khan Market                |
+    | Jangpura                           | Lajpat Nagar, JLN Stadium            |
+    | Lajpat Nagar                       | Moolchand, Jangpura                  |
+    | Moolchand                          | Kailash Colony, Lajpat Nagar         |
+    | Kailash Colony                     | Nehru Place, Moolchand               |
+    | Nehru Place                        | Kalkaji Mandir, Kailash Colony       |
+    | Kalkaji Mandir                     | Govind Puri, Nehru Place             |
+    | Govind Puri                        | Okhla, Kalkaji Mandir                |
+    | Okhla                              | Jasola - Apollo, Govind Puri         |
+    | Jasola - Apollo                    | Sarita Vihar, Okhla                  |
+    | Sarita Vihar                       | Mohan Estate, Jasola - Apollo        |
+    | Mohan Estate                       | Tughlakabad, Sarita Vihar            |
+    | Tughlakabad                        | Badarpur, Mohan Estate               |
+    | Badarpur                           | Tughlakabad                          |
+    +------------------------------------+--------------------------------------+
 
 =head1 AUTHOR
 

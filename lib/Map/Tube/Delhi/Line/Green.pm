@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Green;
 
-$Map::Tube::Delhi::Line::Green::VERSION = '0.19';
+$Map::Tube::Delhi::Line::Green::VERSION = '0.20';
 
 =head1 NAME
 
@@ -8,32 +8,39 @@ Map::Tube::Delhi::Line::Green - Delhi Metro Green Line stations.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =head1 DESCRIPTION
 
 Delhi Metro Green Line stations.
 
-    +-------------------------+------------------------------------------------+
-    | Station Name            | Linked To                                      |
-    +-------------------------+------------------------------------------------+
-    | Mundka                  | Rajdhani Park                                  |
-    | Rajdhani Park           | Nangloi Railway Station, Mundka                |
-    | Nangloi Railway Station | Nangloi, Rajdhani Park                         |
-    | Nangloi                 | Surajmal Stadium, Nangloi Railway Station      |
-    | Surajmal Stadium        | Udyog Nagar, Nangloi                           |
-    | Udyog Nagar             | Peeragarhi, Surajmal Stadium                   |
-    | Peeragarhi              | Paschim Vihar West, Udyog Nagar                |
-    | Paschim Vihar West      | Paschim Vihar East, Peeragarhi                 |
-    | Paschim VIhar East      | Madipur, Paschim Vihar West                    |
-    | Madipur                 | Shivaji Park, Paschim Vihar East               |
-    | Shivaji Park            | Punjabi Bagh, Madipur                          |
-    | Punjabi Bagh            | Ashok Park Main, Shivaji Park                  |
-    | Ashok Park Main         | Inderlok, Punjabi Bagh, Satguru Ram Singh Marg |
-    | Inderlok                | Ashok Park Main                                |
-    | Satguru Ram Singh Marg  | Kirti Nagar, Ashok Park Main                   |
-    | Kirti Nagar             | Satguru Ram Singh Marg                         |
-    +-------------------------+------------------------------------------------+
+    +----------------------------------+------------------------------------------------+
+    |                                  |                                                |
+    | Station Name                     | Linked To                                      |
+    |                                  |                                                |
+    +----------------------------------+------------------------------------------------+
+    | Mundka                           | Rajdhani Park                                  |
+    | Rajdhani Park                    | Nangloi Railway Station, Mundka                |
+    | Nangloi Railway Station          | Nangloi, Rajdhani Park                         |
+    | Nangloi                          | Surajmal Stadium, Nangloi Railway Station      |
+    | Surajmal Stadium                 | Udyog Nagar, Nangloi                           |
+    | Udyog Nagar                      | Peeragarhi, Surajmal Stadium                   |
+    | Peeragarhi                       | Paschim Vihar West, Udyog Nagar                |
+    | Paschim Vihar West               | Paschim Vihar East, Peeragarhi                 |
+    | Paschim VIhar East               | Madipur, Paschim Vihar West                    |
+    | Madipur                          | Shivaji Park, Paschim Vihar East               |
+    | Shivaji Park                     | Punjabi Bagh, Madipur                          |
+    | Punjabi Bagh                     | Ashok Park Main, Shivaji Park                  |
+    | Ashok Park Main                  | Inderlok, Punjabi Bagh, Satguru Ram Singh Marg |
+    +----------------------------------+------------------------------------------------+
+    | Inderlok                         | Ashok Park Main                                |
+    | L<Map::Tube::Delhi::Line::Red>   |                                                |
+    +----------------------------------+------------------------------------------------+
+    | Satguru Ram Singh Marg           | Kirti Nagar, Ashok Park Main                   |
+    +----------------------------------+------------------------------------------------+
+    | Kirti Nagar                      | Satguru Ram Singh Marg                         |
+    | L<Map::Tube::Delhi::Line::Blue>  |                                                |
+    +----------------------------------+------------------------------------------------+
 
 =head1 AUTHOR
 

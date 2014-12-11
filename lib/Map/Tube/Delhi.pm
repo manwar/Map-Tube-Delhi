@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION = '0.19';
+$Map::Tube::Delhi::VERSION = '0.20';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =cut
 

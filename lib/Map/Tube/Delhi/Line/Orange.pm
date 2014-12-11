@@ -14,16 +14,22 @@ Version 0.19
 
 Delhi Metro Orange Line stations.
 
-    +-------------------+--------------------------------------+
-    | Station Name      | Linked To                            |
-    +-------------------+--------------------------------------+
-    | Dwarka Sector 21  | I. G. I. Airport                     |
-    | I. G. I. Airport  | Delhi Aero City, Dwarka Sector 21    |
-    | Delhi Aero City   | Dhaula Kuan, I. G. I. Airport        |
-    | Dhaula Kuan       | Shivaji Stadium, Delhi Aero City     |
-    | Shivaji Stadium   | New Delhi, Dhaula Kuan               |
-    | New Delhi         | Shivaji Stadium                      |
-    +-------------------+--------------------------------------+
+    +-----------------------------------+--------------------------------------+
+    |                                   |                                      |
+    | Station Name                      | Linked To                            |
+    |                                   |                                      |
+    +-----------------------------------+--------------------------------------+
+    | Dwarka Sector 21                  | I. G. I. Airport                     |
+    | L<Map::Tube::Delhi::Line::Blue>   |                                      |
+    +-----------------------------------+--------------------------------------+
+    | I. G. I. Airport                  | Delhi Aero City, Dwarka Sector 21    |
+    | Delhi Aero City                   | Dhaula Kuan, I. G. I. Airport        |
+    | Dhaula Kuan                       | Shivaji Stadium, Delhi Aero City     |
+    | Shivaji Stadium                   | New Delhi, Dhaula Kuan               |
+    +-----------------------------------+--------------------------------------+
+    | New Delhi                         | Shivaji Stadium                      |
+    | L<Map::Tube::Delhi::Line::Yellow> |                                      |
+    +-----------------------------------+--------------------------------------+
 
 =head1 AUTHOR
 

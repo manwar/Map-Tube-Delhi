@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Red;
 
-$Map::Tube::Delhi::Line::Red::VERSION = '0.19';
+$Map::Tube::Delhi::Line::Red::VERSION = '0.20';
 
 =head1 NAME
 
@@ -8,37 +8,45 @@ Map::Tube::Delhi::Line::Red - Delhi Metro Red Line stations.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =head1 DESCRIPTION
 
 Delhi Metro Red Line stations.
 
-    +----------------------+--------------------------------------+
-    | Station Name         | Linked To                            |
-    +----------------------+--------------------------------------+
-    | Rithala              | Rohini West                          |
-    | Rohini West          | Rithala, Rohini East                 |
-    | Rohini East          | Rohini West, Pitampura               |
-    | Pitampura            | Rohini East, Kohat Enclave           |
-    | Kohat Enclave        | Pitampura, Netaji Subhash Place      |
-    | Netaji Subhash Place | Kohat Enclave, Keshav Puram          |
-    | Keshav Puram         | Netaji Subhash Place, Kanhaiya Nagar |
-    | Kanhaiya Nagar       | Keshav Puram, Inderlok               |
-    | Inderlok             | Kanhaiya Nagar, Shastri Nagar        |
-    | Shastri Nagar        | Inderlok, Pratap Nagar               |
-    | Pratap Nagar         | Shastri Nagar, Pulbangsh             |
-    | Pulbangash           | Pratap Nagar, Tis Hazari             |
-    | Tis Hazari           | Pulbangsh, Kashmere Gate             |
-    | Kashmere Gate        | Tis Hazari, Shasri Park              |
-    | Shastri Park         | Kashmere Gate, Seelampur             |
-    | Seelampur            | Shastri Park, Welcome                |
-    | Welcome              | Seelampur, Shahdara                  |
-    | Shahdara             | Welcome, Mansarovar Park             |
-    | Mansarovar Park      | Shahdara, Jhilmil                    |
-    | Jhilmil              | Mansarovar Park, Dishad Garden       |
-    | Dilshad Garden       | Jhilmil                              |
-    +----------------------+--------------------------------------+
+    +------------------------------------+--------------------------------------+
+    |                                    |                                      |
+    | Station Name                       | Linked To                            |
+    |                                    |                                      |
+    +------------------------------------+--------------------------------------+
+    | Rithala                            | Rohini West                          |
+    | Rohini West                        | Rithala, Rohini East                 |
+    | Rohini East                        | Rohini West, Pitampura               |
+    | Pitampura                          | Rohini East, Kohat Enclave           |
+    | Kohat Enclave                      | Pitampura, Netaji Subhash Place      |
+    | Netaji Subhash Place               | Kohat Enclave, Keshav Puram          |
+    | Keshav Puram                       | Netaji Subhash Place, Kanhaiya Nagar |
+    | Kanhaiya Nagar                     | Keshav Puram, Inderlok               |
+    +------------------------------------+--------------------------------------+
+    | Inderlok                           | Kanhaiya Nagar, Shastri Nagar        |
+    | L<Map::Tube::Delhi::Line::Green>   |                                      |
+    +------------------------------------+--------------------------------------+
+    | Shastri Nagar                      | Inderlok, Pratap Nagar               |
+    | Pratap Nagar                       | Shastri Nagar, Pulbangsh             |
+    | Pulbangash                         | Pratap Nagar, Tis Hazari             |
+    | Tis Hazari                         | Pulbangsh, Kashmere Gate             |
+    +------------------------------------+--------------------------------------+
+    | Kashmere Gate                      | Tis Hazari, Shasri Park              |
+    | L<Map::Tube::Delhi::Line::Yellow>  |                                      |
+    +------------------------------------+--------------------------------------+
+    | Shastri Park                       | Kashmere Gate, Seelampur             |
+    | Seelampur                          | Shastri Park, Welcome                |
+    | Welcome                            | Seelampur, Shahdara                  |
+    | Shahdara                           | Welcome, Mansarovar Park             |
+    | Mansarovar Park                    | Shahdara, Jhilmil                    |
+    | Jhilmil                            | Mansarovar Park, Dishad Garden       |
+    | Dilshad Garden                     | Jhilmil                              |
+    +------------------------------------+--------------------------------------+
 
 =head1 AUTHOR
 
