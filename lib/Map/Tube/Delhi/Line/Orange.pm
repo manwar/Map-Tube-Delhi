@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Orange;
 
-$Map::Tube::Delhi::Line::Orange::VERSION = '0.19';
+$Map::Tube::Delhi::Line::Orange::VERSION = '0.21';
 
 =head1 NAME
 
@@ -8,28 +8,32 @@ Map::Tube::Delhi::Line::Orange - Delhi Metro Orange Line stations.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.21
 
 =head1 DESCRIPTION
 
 Delhi Metro Orange Line stations.
 
-    +-----------------------------------+--------------------------------------+
-    |                                   |                                      |
-    | Station Name                      | Linked To                            |
-    |                                   |                                      |
-    +-----------------------------------+--------------------------------------+
-    | Dwarka Sector 21                  | I. G. I. Airport                     |
-    | L<Map::Tube::Delhi::Line::Blue>   |                                      |
-    +-----------------------------------+--------------------------------------+
-    | I. G. I. Airport                  | Delhi Aero City, Dwarka Sector 21    |
-    | Delhi Aero City                   | Dhaula Kuan, I. G. I. Airport        |
-    | Dhaula Kuan                       | Shivaji Stadium, Delhi Aero City     |
-    | Shivaji Stadium                   | New Delhi, Dhaula Kuan               |
-    +-----------------------------------+--------------------------------------+
-    | New Delhi                         | Shivaji Stadium                      |
-    | L<Map::Tube::Delhi::Line::Yellow> |                                      |
-    +-----------------------------------+--------------------------------------+
+    +--------------------+--------------------------------------+
+    |                    |                                      |
+    | Station Name       | Linked To                            |
+    |                    |                                      |
+    +--------------------+--------------------------------------+
+    | Dwarka Sector 21   | I. G. I. Airport                     |
+    | I. G. I. Airport   | Delhi Aero City, Dwarka Sector 21    |
+    | Delhi Aero City    | Dhaula Kuan, I. G. I. Airport        |
+    | Dhaula Kuan        | Shivaji Stadium, Delhi Aero City     |
+    | Shivaji Stadium    | New Delhi, Dhaula Kuan               |
+    | New Delhi          | Shivaji Stadium                      |
+    +--------------------+--------------------------------------+
+
+=over 2
+
+=item * The station "Dwarka Sector 21" is also part of L<Blue Line|Map::Tube::Delhi::Line::Blue>.
+
+=item * The station "New Delhi" is also part of L<Yellow Line|Map::Tube::Delhi::Line::Yellow>.
+
+=back
 
 =head1 AUTHOR
 
