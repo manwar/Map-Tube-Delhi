@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.24  Wed Jan 07 12:15:20 2015
+      - Added line 'use strict; use warnings;' to all the packages Map::Tube::Delhi::Line::*.pm file.
+
 0.23  Wed Jan 07 12:00:20 2015
       - Upgraded to use Map::Tube v2.60 as it brings in new fix and feature.
       - Updated Makefile.PL to generate the key 'provides' for META file correctly.
