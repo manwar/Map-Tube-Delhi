@@ -1,5 +1,12 @@
 Revision history for Map-Tube-Delhi
 
+0.23  Wed Jan 07 12:00:20 2015
+      - Upgraded to use Map::Tube v2.60 as it brings in new fix and feature.
+      - Updated Makefile.PL to generate the key 'provides' for META file correctly.
+      - Added unit test to test META files.
+      - Added LICENSE file.
+      - Updated Copyright year information.
+
 0.22  Thu Dec 11 23:50:20 2014
       - Added section "NOTE" for linked stations.
 

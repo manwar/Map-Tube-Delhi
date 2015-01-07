@@ -1,6 +1,7 @@
 package Map::Tube::Delhi::Line::Green;
 
-$Map::Tube::Delhi::Line::Green::VERSION = '0.22';
+$Map::Tube::Delhi::Line::Green::VERSION   = '0.23';
+$Map::Tube::Delhi::Line::Green::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Map::Tube::Delhi::Line::Green - Delhi Metro Green Line stations.
 
 =head1 VERSION
 
-Version 0.22
+Version 0.23
 
 =head1 DESCRIPTION
 
@@ -92,7 +93,7 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2014 Mohammad S Anwar.
+Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
