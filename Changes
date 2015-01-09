@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.25  Fri Jan 09 14:50:20 2015
+      - Upgraded to use Map::Tube v2.61 as it brings in new fix and feature.
+
 0.24  Wed Jan 07 12:15:20 2015
       - Added line 'use strict; use warnings;' to all the packages Map::Tube::Delhi::Line::*.pm file.
 
