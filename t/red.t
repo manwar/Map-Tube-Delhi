@@ -1,3 +1,6 @@
+#!/usr/bin/perl
+
+use 5.006;
 use strict; use warnings;
 use Test::More tests => 3;
 use Map::Tube::Delhi;

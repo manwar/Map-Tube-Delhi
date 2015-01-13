@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.27  Tue Jan 13 15:50:00 2015
+      - Tidied up unit test scripts.
+
 0.26  Tue Jan 13 14:58:00 2015
       - Upgraded to use Map::Tube v2.62.
 
