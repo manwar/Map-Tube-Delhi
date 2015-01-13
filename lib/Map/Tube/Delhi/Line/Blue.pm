@@ -1,8 +1,9 @@
 package Map::Tube::Delhi::Line::Blue;
 
-$Map::Tube::Delhi::Line::Blue::VERSION   = '0.25';
+$Map::Tube::Delhi::Line::Blue::VERSION   = '0.26';
 $Map::Tube::Delhi::Line::Blue::AUTHORITY = 'cpan:MANWAR';
 
+use 5.006;
 use strict; use warnings;
 
 =head1 NAME
@@ -11,7 +12,7 @@ Map::Tube::Delhi::Line::Blue - Delhi Metro Blue Line stations.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =head1 DESCRIPTION
 
