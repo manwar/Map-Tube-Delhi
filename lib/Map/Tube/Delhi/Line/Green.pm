@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Green;
 
-$Map::Tube::Delhi::Line::Green::VERSION   = '0.29';
+$Map::Tube::Delhi::Line::Green::VERSION   = '0.30';
 $Map::Tube::Delhi::Line::Green::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Delhi::Line::Green - Delhi Metro Green Line stations.
 
 =head1 VERSION
 
-Version 0.29
+Version 0.30
 
 =head1 DESCRIPTION
 

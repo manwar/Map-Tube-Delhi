@@ -19,6 +19,7 @@
     <station id="YAMUNA-BANK"          name="Yamuna Bank"          line="Blue"          link="B33,LAXMI-NAGAR,AKSHARDHAM"/>
     <station id="LAXMI-NAGAR"          name="Laxmi Nagar"          line="Blue"          link="B36,YAMUNA-BANK,AKSHARDHAM"/>
     <station id="AKSHARDHAM"           name="Akshardham"           line="Blue"          link="LAXMI-NAGAR,B43,YAMUNA-BANK"/>
+    <station id="KIRTI-NAGAR"          name="Kirti Nagar"          line="Blue,Green"    link="B23,B21,G14"/>
 
     <station id="B02" name="Dwarka Sector 8"         line="Blue"   link="B03,DWARKA-SECTOR-21"/>
     <station id="B03" name="Dwarka Sector 9"         line="Blue"   link="B04,B02"/>
@@ -39,9 +40,8 @@
     <station id="B18" name="Tagore Garden"           line="Blue"   link="B19,B17"/>
     <station id="B19" name="Rajouri Garden"          line="Blue"   link="B20,B18"/>
     <station id="B20" name="Ramesh Nagar"            line="Blue"   link="B21,B19"/>
-    <station id="B21" name="Moti Nagar"              line="Blue"   link="B22,B20"/>
-    <station id="B22" name="Kirti Nagar"             line="Blue"   link="B23,B21"/>
-    <station id="B23" name="Shadipur"                line="Blue"   link="B24,B22"/>
+    <station id="B21" name="Moti Nagar"              line="Blue"   link="KIRTI-NAGAR,B20"/>
+    <station id="B23" name="Shadipur"                line="Blue"   link="B24,KIRTI-NAGAR"/>
     <station id="B24" name="Patel Nagar"             line="Blue"   link="B25,B23"/>
     <station id="B25" name="Rajendra Place"          line="Blue"   link="B26,B24"/>
     <station id="B26" name="Karol Bagh"              line="Blue"   link="B27,B25"/>
@@ -120,7 +120,7 @@
     <station id="G10" name="Madipur"                 line="Green"  link="G11,G09"/>
     <station id="G11" name="Shivaji Park"            line="Green"  link="G12,G10"/>
     <station id="G12" name="Punjabi Bagh"            line="Green"  link="ASHOK-PARK-MAIN,G11"/>
-    <station id="G14" name="Satguru Ram Singh Marg"  line="Green"  link="ASHOK-PARK-MAIN"/>
+    <station id="G14" name="Satguru Ram Singh Marg"  line="Green"  link="ASHOK-PARK-MAIN,KIRTI-NAGAR"/>
 
     <station id="Y01" name="Jenhangir Puri"          line="Yellow" link="Y02"/>
     <station id="Y02" name="Adarsh Nagar"            line="Yellow" link="Y03,Y01"/>
