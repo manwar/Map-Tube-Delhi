@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION   = '0.27';
+$Map::Tube::Delhi::VERSION   = '0.28';
 $Map::Tube::Delhi::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =cut
 
@@ -70,6 +70,32 @@ On error it returns an object of type L<Map::Tube::Exception>.
     my $route = $metro->get_shortest_route('Pratap Nagar', 'Shivaji Park');
 
     print "Route: $route\n";
+
+=head2 as_image($line_name)
+
+Returns line image as base64 encoded string. It expects the plugin L<Map::Tube::Plugin::Graph>
+to be installed.
+
+    use strict; use warnings;
+    use MIME::Base64;
+    use Map::Tube::Delhi;
+
+    my $tube = Map::Tube::Delhi->new;
+    my $line = 'Red';
+    open(my $IMAGE, ">$line.png");
+    print $IMAGE decode_base64($tube->as_image($line));
+    close($IMAGE);
+
+=begin html
+
+<a href = "https://raw.githubusercontent.com/Manwar/Map-Tube-Delhi/master/maps/Red.png">
+<img src    = "https://raw.githubusercontent.com/Manwar/Map-Tube-Delhi/master/maps/Red.png"
+     alt    = "Delhi Metro Map: Red Line"
+     width  = "400px"
+     height = "400px"/>
+</a>
+
+=end html
 
 =head1 AUTHOR
 

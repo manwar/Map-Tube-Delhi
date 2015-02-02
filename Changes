@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Delhi
 
+0.28  Mon Feb 02 14:20:00 2015
+      - Upgraded to use Map::Tube v2.77.
+      - Added map image for all Delhi Metro lines.
+      - Added section "MAP" to all pod documents of Map::Tube::Delhi::Line::* family.
+      - Documented method as_image() in the pod document of Map::Tube::Delhi.
+
 0.27  Tue Jan 13 15:50:00 2015
       - Tidied up unit test scripts.
 

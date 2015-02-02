@@ -1,4 +1,13 @@
 <tube name="Delhi Metro">
+  <lines>
+      <line id="Red"    name="Red"    color="#8B0000" />
+      <line id="Green"  name="Green"  color="#006400" />
+      <line id="Yellow" name="Yellow" color="#ffff00" />
+      <line id="Blue"   name="Blue"   color="#000080" />
+      <line id="Orange" name="Orange" color="#ff4f00" />
+      <line id="Violet" name="Violet" color="#9400D3" />
+  </lines>
+
   <stations>
     <station id="INDERLOK"             name="Inderlok"             line="Red,Green"     link="R08,R10,ASHOK-PARK-MAIN"/>
     <station id="KASHMERE-GATE"        name="Kashmere Gate"        line="Red,Yellow"    link="R13,R15,Y08,Y10"/>
