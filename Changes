@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.29  Mon Feb 02 17:35:00 2015
+      - Minor cosmetic changes to the pod document of Blue and Yellow line.
+
 0.28  Mon Feb 02 14:20:00 2015
       - Upgraded to use Map::Tube v2.77.
       - Added map image for all Delhi Metro lines.
