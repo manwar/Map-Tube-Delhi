@@ -17,8 +17,8 @@
     <station id="NEW-DELHI"            name="New Delhi"            line="Yellow,Orange" link="RAJIV-CHOWK,Y11,O05"/>
     <station id="DWARKA-SECTOR-21"     name="Dwarka Sector 21"     line="Orange,Blue"   link="B02,O02"/>
     <station id="YAMUNA-BANK"          name="Yamuna Bank"          line="Blue"          link="B33,LAXMI-NAGAR,AKSHARDHAM"/>
-    <station id="LAXMI-NAGAR"          name="Laxmi Nagar"          line="Blue"          link="B36,YAMUNA-BANK,AKSHARDHAM"/>
-    <station id="AKSHARDHAM"           name="Akshardham"           line="Blue"          link="LAXMI-NAGAR,B43,YAMUNA-BANK"/>
+    <station id="LAXMI-NAGAR"          name="Laxmi Nagar"          line="Blue"          link="B36,YAMUNA-BANK"/>
+    <station id="AKSHARDHAM"           name="Akshardham"           line="Blue"          link="B43,YAMUNA-BANK"/>
     <station id="KIRTI-NAGAR"          name="Kirti Nagar"          line="Blue,Green"    link="B23,B21,G14"/>
 
     <station id="B02" name="Dwarka Sector 8"         line="Blue"   link="B03,DWARKA-SECTOR-21"/>

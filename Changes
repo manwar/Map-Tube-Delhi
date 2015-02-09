@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.31  Mon Feb 09 13:40:00 2015
+      - Upgraded to use Map::Tube v2.78.
+      - Fixed the link information for the stations 'Akshardham' and 'Lakshmi Nagar'.
+
 0.30  Mon Feb 02 20:50:00 2015
       - Updated link informations for the stations 'Kirti Nagar'.
       - Updated line informations for the stations 'Kirti Nagar'.
