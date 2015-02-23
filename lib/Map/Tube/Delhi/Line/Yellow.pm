@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Yellow;
 
-$Map::Tube::Delhi::Line::Yellow::VERSION   = '0.31';
+$Map::Tube::Delhi::Line::Yellow::VERSION   = '0.32';
 $Map::Tube::Delhi::Line::Yellow::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,56 +8,56 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Yellow - Delhi Metro Yellow Line stations.
+Map::Tube::Delhi::Line::Yellow - Delhi Metro Map: Yellow Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =head1 DESCRIPTION
 
-Delhi Metro Yellow Line stations.
+Delhi Metro Map: Yellow Line.
 
-    +-----------------------+-----------------------------------+
-    |                       |                                   |
-    | Station Name          | Linked To                         |
-    |                       |                                   |
-    +-----------------------+-----------------------------------+
-    | HUDA City Centre      | IFFCO Chowk                       |
-    | IFFCO Chowk           | M G Road, HUDA City Centre        |
-    | M G Road              | Sikanderpur, IIFCO Chowk          |
-    | Sikanderpur           | Guru Dronacharya, M G Road        |
-    | Guru Dronacharya      | Arjangarh, Sikanderpur            |
-    | Arjangarh             | Ghitorni, Guru Dronacharya        |
-    | Ghitorni              | Sultanpur, Arjangarh              |
-    | Sultanpur             | Chhattarpur, Ghitorni             |
-    | Chhattarpur           | Qutab Minar, Sultanpur            |
-    | Qutab Minar           | Saket, Chhattarpur                |
-    | Saket                 | Malviya Nagar, Qutab Minar        |
-    | Malviya Nagar         | Hauz Khas, Saket                  |
-    | Hauz Khas             | Green Park, Malviya Nagar         |
-    | Green Park            | AIIMS, Hauz Khas                  |
-    | AIIMS                 | INA, Green Park                   |
-    | INA                   | Jor Bagh, AIIMS                   |
-    | Jor Bagh              | Race Course, INA                  |
-    | Race Course           | Udyog Bhavan, Jor Bagh            |
-    | Udyog Bhavan          | Central Secretariate, Race Course |
-    | Central Secretariate  | Patel Chowk, Udyog Bhavan         |
-    | Patel Chowk           | Rajiv Chowk, Central Secretariate |
-    | Rajiv Chowk           | New Delhi, Patel Chowk            |
-    | New Delhi             | Chowri Bazar, Rajiv Chowk         |
-    | Chowri Bazar          | Chandni Chowk, New Delhi          |
-    | Chandni Chowk         | Kashmere Gate, Chowri Bazar       |
-    | Kashmere Gate         | Civil Lines, Chandni Chowk        |
-    | Civil Lines           | Vidhan Sabha, Kashmere Gate       |
-    | Vidhan Sabha          | Vishwavidyalaya, Civil Lines      |
-    | Vishwavidyalaya       | G. T. B. Nagar, Vidhan Sabha      |
-    | G. T. B. Nagar        | Model Town, Vishwavidyalaya       |
-    | Model Town            | Azadpur, G. T. B. Nagar           |
-    | Azadpur               | Adarsh Nagar, Model Town          |
-    | Adarsh Nagar          | Jahangir Puri, Azadpur            |
-    | Jahangir Puri         | Adarsh Nagar                      |
-    +-----------------------+-----------------------------------+
+    +-----------------------+---------------------------------------------------+
+    |                       |                                                   |
+    | Station Name          | Linked To                                         |
+    |                       |                                                   |
+    +-----------------------+---------------------------------------------------+
+    | HUDA City Centre      | IFFCO Chowk                                       |
+    | IFFCO Chowk           | M G Road, HUDA City Centre                        |
+    | M G Road              | Sikanderpur, IIFCO Chowk                          |
+    | Sikanderpur           | Guru Dronacharya, M G Road                        |
+    | Guru Dronacharya      | Arjangarh, Sikanderpur                            |
+    | Arjangarh             | Ghitorni, Guru Dronacharya                        |
+    | Ghitorni              | Sultanpur, Arjangarh                              |
+    | Sultanpur             | Chhattarpur, Ghitorni                             |
+    | Chhattarpur           | Qutab Minar, Sultanpur                            |
+    | Qutab Minar           | Saket, Chhattarpur                                |
+    | Saket                 | Malviya Nagar, Qutab Minar                        |
+    | Malviya Nagar         | Hauz Khas, Saket                                  |
+    | Hauz Khas             | Green Park, Malviya Nagar                         |
+    | Green Park            | AIIMS, Hauz Khas                                  |
+    | AIIMS                 | INA, Green Park                                   |
+    | INA                   | Jor Bagh, AIIMS                                   |
+    | Jor Bagh              | Race Course, INA                                  |
+    | Race Course           | Udyog Bhavan, Jor Bagh                            |
+    | Udyog Bhavan          | Central Secretariate, Race Course                 |
+    | Central Secretariate  | Patel Chowk, Udyog Bhavan                         |
+    | Patel Chowk           | Rajiv Chowk, Central Secretariate                 |
+    | Rajiv Chowk           | New Delhi, Patel Chowk                            |
+    | New Delhi             | Chowri Bazar, Rajiv Chowk                         |
+    | Chowri Bazar          | Chandni Chowk, New Delhi                          |
+    | Chandni Chowk         | Kashmere Gate, Chowri Bazar                       |
+    | Kashmere Gate         | Civil Lines, Chandni Chowk                        |
+    | Civil Lines           | Vidhan Sabha, Kashmere Gate                       |
+    | Vidhan Sabha          | Vishwavidyalaya, Civil Lines                      |
+    | Vishwavidyalaya       | G. T. B. Nagar, Vidhan Sabha                      |
+    | G. T. B. Nagar        | Model Town, Vishwavidyalaya                       |
+    | Model Town            | Azadpur, G. T. B. Nagar                           |
+    | Azadpur               | Adarsh Nagar, Model Town                          |
+    | Adarsh Nagar          | Jahangir Puri, Azadpur                            |
+    | Jahangir Puri         | Adarsh Nagar                                      |
+    +-----------------------+---------------------------------------------------+
 
 =head2 NOTE
 
@@ -136,8 +136,8 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License  (2.0). You may obtain a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

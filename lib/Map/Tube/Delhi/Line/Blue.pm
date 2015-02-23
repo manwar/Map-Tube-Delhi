@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Blue;
 
-$Map::Tube::Delhi::Line::Blue::VERSION   = '0.31';
+$Map::Tube::Delhi::Line::Blue::VERSION   = '0.32';
 $Map::Tube::Delhi::Line::Blue::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,73 +8,73 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Blue - Delhi Metro Blue Line stations.
+Map::Tube::Delhi::Line::Blue - Delhi Metro Map: Blue Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =head1 DESCRIPTION
 
-Delhi Metro Blue Line stations.
+Delhi Metro Map: Blue Line.
 
-    +-------------------------+-----------------------------------------+
-    |                         |                                         |
-    | Station Name            | Linked To                               |
-    |                         |                                         |
-    +-------------------------+-----------------------------------------+
-    | Dwarka Sector 21        | Dwarka Sector 8                         |
-    | Dwarka Sector 8         | Dwarka Sector 9, Dwarka Sector 21       |
-    | Dwarka Sector 9         | Dwarka Sector 10, Dwarka Sector 8       |
-    | Dwarka Sector 10        | Dwarka Sector 11, Dwarka Sector 9       |
-    | Dwarka Sector 11        | Dwarka Sector 12, Dwarka Sector 10      |
-    | Dwarka Sector 12        | Dwarka Sector 13, Dwarka Sector 11      |
-    | Dwarka Sector 13        | Dwarka Sector 14, Dwarka Sector 12      |
-    | Dwarka Sector 14        | Dwarka, Dwarka Sector 13                |
-    | Dwarka                  | Dwarka Mor, Dwarka Sector 14            |
-    | Dwarka Mor              | Nawada, Dwarka                          |
-    | Nawada                  | Uttam Nagar West, Dwarka Mor            |
-    | Uttam Nagar West        | Uttam Nagar East, Nawada                |
-    | Uttam Nagar East        | Janakpuri West, Uttam Nagar West        |
-    | Janakpuri West          | Janakpuri East, Uttam Nagar East        |
-    | Janakpuri East          | Tilak Nagar, Janakpuri West             |
-    | Tilak Nagar             | Subhash Nagar, Janakpuri East           |
-    | Subhash Nagar           | Tagore Garden, Tilak Nagar              |
-    | Tagore Garden           | Rajouri Garden, Subhash Nagar           |
-    | Rajouri Garden          | Ramesh Garden, Tagore Garden            |
-    | Ramesh Nagar            | Moti Nagar, Rajouri Garden              |
-    | Moti Nagar              | Kirti Nagar, Ramesh Nagar               |
-    | Kirti Nagar             | Shadipur, Moti Nagar                    |
-    | Shadipur                | Patel Nagar, Kirti Nagar                |
-    | Patel Nagar             | Rajendra Place, Shadipur                |
-    | Rajendra Place          | Karol Bagh, Patel Nagar                 |
-    | Karol Bagh              | Jhandewalan, Rajendra Place             |
-    | Jhandewalan             | Ramkrishna Ashram Marg, Karol Bagh      |
-    | Ramkrishna Ashram Marg  | Rajiv Chowk, Jhandewalan                |
-    | Rajiv Chowk             | Barakhamba Road, Ramkrishna Ashram Marg |
-    | Barakhamba Road         | Mandi House, Rajiv Chowk                |
-    | Mandi House             | Pragati Maidan, Barakhamba Road         |
-    | Pragati Maidan          | Indraprastha, Mandi House               |
-    | Indraprastha            | Yamuna Bank, Pragati Maidan             |
-    | Yamuna Bank             | Laxmi Nagar, Akshardham, Indraprastha   |
-    | Laxmi Nagar             | Nirman Vihar, Yamuna Bank, Akshardham   |
-    | Nirman Vihar            | Preet Vihar, Laxmi Nagar                |
-    | Preet Vihar             | Karkarduma, Nirman Vihar                |
-    | Karkarduma              | Anand Vihar ISBT, Preet Vihar           |
-    | Anand Vihar ISBT        | Kaushambi, Karkarduma                   |
-    | Kaushambi               | Vaishali, Anand Vihar ISBT              |
-    | Vaishali                | Kaushambi                               |
-    | Akshardham              | Yamuna Bank, Laxmi Nagar, Mayur Vihar I |
-    | Mayur Vihar I           | Mayur Vihar Extn., Akshardham           |
-    | Mayur Vihar Extn.       | New Ashok Nagar, Mayur Vihar I          |
-    | New Ashok Nagar         | Noida Sector 15, Mayur Vihar Extn.      |
-    | Noida Sector 15         | Noida Sector 16, New Ashok Nagar        |
-    | Noida Sector 16         | Noida Sector 18, Noida Sector 15        |
-    | Noida Sector 18         | Botanical Garden, Noida Sector 16       |
-    | Botanical Garden        | Golf Course, Noida Sector 18            |
-    | Golf Course             | Noida City Centre, Botanical Garden     |
-    | Noida City Centre       | Golf Course                             |
-    +-------------------------+-----------------------------------------+
+    +-------------------------+-------------------------------------------------+
+    |                         |                                                 |
+    | Station Name            | Linked To                                       |
+    |                         |                                                 |
+    +-------------------------+-------------------------------------------------+
+    | Dwarka Sector 21        | Dwarka Sector 8                                 |
+    | Dwarka Sector 8         | Dwarka Sector 9, Dwarka Sector 21               |
+    | Dwarka Sector 9         | Dwarka Sector 10, Dwarka Sector 8               |
+    | Dwarka Sector 10        | Dwarka Sector 11, Dwarka Sector 9               |
+    | Dwarka Sector 11        | Dwarka Sector 12, Dwarka Sector 10              |
+    | Dwarka Sector 12        | Dwarka Sector 13, Dwarka Sector 11              |
+    | Dwarka Sector 13        | Dwarka Sector 14, Dwarka Sector 12              |
+    | Dwarka Sector 14        | Dwarka, Dwarka Sector 13                        |
+    | Dwarka                  | Dwarka Mor, Dwarka Sector 14                    |
+    | Dwarka Mor              | Nawada, Dwarka                                  |
+    | Nawada                  | Uttam Nagar West, Dwarka Mor                    |
+    | Uttam Nagar West        | Uttam Nagar East, Nawada                        |
+    | Uttam Nagar East        | Janakpuri West, Uttam Nagar West                |
+    | Janakpuri West          | Janakpuri East, Uttam Nagar East                |
+    | Janakpuri East          | Tilak Nagar, Janakpuri West                     |
+    | Tilak Nagar             | Subhash Nagar, Janakpuri East                   |
+    | Subhash Nagar           | Tagore Garden, Tilak Nagar                      |
+    | Tagore Garden           | Rajouri Garden, Subhash Nagar                   |
+    | Rajouri Garden          | Ramesh Garden, Tagore Garden                    |
+    | Ramesh Nagar            | Moti Nagar, Rajouri Garden                      |
+    | Moti Nagar              | Kirti Nagar, Ramesh Nagar                       |
+    | Kirti Nagar             | Shadipur, Moti Nagar                            |
+    | Shadipur                | Patel Nagar, Kirti Nagar                        |
+    | Patel Nagar             | Rajendra Place, Shadipur                        |
+    | Rajendra Place          | Karol Bagh, Patel Nagar                         |
+    | Karol Bagh              | Jhandewalan, Rajendra Place                     |
+    | Jhandewalan             | Ramkrishna Ashram Marg, Karol Bagh              |
+    | Ramkrishna Ashram Marg  | Rajiv Chowk, Jhandewalan                        |
+    | Rajiv Chowk             | Barakhamba Road, Ramkrishna Ashram Marg         |
+    | Barakhamba Road         | Mandi House, Rajiv Chowk                        |
+    | Mandi House             | Pragati Maidan, Barakhamba Road                 |
+    | Pragati Maidan          | Indraprastha, Mandi House                       |
+    | Indraprastha            | Yamuna Bank, Pragati Maidan                     |
+    | Yamuna Bank             | Laxmi Nagar, Akshardham, Indraprastha           |
+    | Laxmi Nagar             | Nirman Vihar, Yamuna Bank, Akshardham           |
+    | Nirman Vihar            | Preet Vihar, Laxmi Nagar                        |
+    | Preet Vihar             | Karkarduma, Nirman Vihar                        |
+    | Karkarduma              | Anand Vihar ISBT, Preet Vihar                   |
+    | Anand Vihar ISBT        | Kaushambi, Karkarduma                           |
+    | Kaushambi               | Vaishali, Anand Vihar ISBT                      |
+    | Vaishali                | Kaushambi                                       |
+    | Akshardham              | Yamuna Bank, Laxmi Nagar, Mayur Vihar I         |
+    | Mayur Vihar I           | Mayur Vihar Extn., Akshardham                   |
+    | Mayur Vihar Extn.       | New Ashok Nagar, Mayur Vihar I                  |
+    | New Ashok Nagar         | Noida Sector 15, Mayur Vihar Extn.              |
+    | Noida Sector 15         | Noida Sector 16, New Ashok Nagar                |
+    | Noida Sector 16         | Noida Sector 18, Noida Sector 15                |
+    | Noida Sector 18         | Botanical Garden, Noida Sector 16               |
+    | Botanical Garden        | Golf Course, Noida Sector 18                    |
+    | Golf Course             | Noida City Centre, Botanical Garden             |
+    | Noida City Centre       | Golf Course                                     |
+    +-------------------------+-------------------------------------------------+
 
 =head2 NOTE
 
@@ -151,8 +151,8 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain a  copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

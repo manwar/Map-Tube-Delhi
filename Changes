@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Delhi
 
+0.32  Mon Feb 23 19:35:00 2015
+      - Upgraded to use Map::Tube v2.87.
+      - Added unit test map.t script.
+      - Added Delhi metro map image.
+      - Tidied up pod document.
+
 0.31  Mon Feb 09 13:40:00 2015
       - Upgraded to use Map::Tube v2.78.
       - Fixed the link information for the stations 'Akshardham' and 'Lakshmi Nagar'.

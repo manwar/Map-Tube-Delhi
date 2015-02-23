@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Green;
 
-$Map::Tube::Delhi::Line::Green::VERSION   = '0.31';
+$Map::Tube::Delhi::Line::Green::VERSION   = '0.32';
 $Map::Tube::Delhi::Line::Green::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,38 +8,38 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Green - Delhi Metro Green Line stations.
+Map::Tube::Delhi::Line::Green - Delhi Metro Map: Green Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =head1 DESCRIPTION
 
-Delhi Metro Green Line stations.
+Delhi Metro Map: Green Line.
 
-    +-------------------------+------------------------------------------------+
-    |                         |                                                |
-    | Station Name            | Linked To                                      |
-    |                         |                                                |
-    +-------------------------+------------------------------------------------+
-    | Mundka                  | Rajdhani Park                                  |
-    | Rajdhani Park           | Nangloi Railway Station, Mundka                |
-    | Nangloi Railway Station | Nangloi, Rajdhani Park                         |
-    | Nangloi                 | Surajmal Stadium, Nangloi Railway Station      |
-    | Surajmal Stadium        | Udyog Nagar, Nangloi                           |
-    | Udyog Nagar             | Peeragarhi, Surajmal Stadium                   |
-    | Peeragarhi              | Paschim Vihar West, Udyog Nagar                |
-    | Paschim Vihar West      | Paschim Vihar East, Peeragarhi                 |
-    | Paschim VIhar East      | Madipur, Paschim Vihar West                    |
-    | Madipur                 | Shivaji Park, Paschim Vihar East               |
-    | Shivaji Park            | Punjabi Bagh, Madipur                          |
-    | Punjabi Bagh            | Ashok Park Main, Shivaji Park                  |
-    | Ashok Park Main         | Inderlok, Punjabi Bagh, Satguru Ram Singh Marg |
-    | Inderlok                | Ashok Park Main                                |
-    | Satguru Ram Singh Marg  | Kirti Nagar, Ashok Park Main                   |
-    | Kirti Nagar             | Satguru Ram Singh Marg                         |
-    +-------------------------+------------------------------------------------+
+    +-------------------------+-------------------------------------------------+
+    |                         |                                                 |
+    | Station Name            | Linked To                                       |
+    |                         |                                                 |
+    +-------------------------+-------------------------------------------------+
+    | Mundka                  | Rajdhani Park                                   |
+    | Rajdhani Park           | Nangloi Railway Station, Mundka                 |
+    | Nangloi Railway Station | Nangloi, Rajdhani Park                          |
+    | Nangloi                 | Surajmal Stadium, Nangloi Railway Station       |
+    | Surajmal Stadium        | Udyog Nagar, Nangloi                            |
+    | Udyog Nagar             | Peeragarhi, Surajmal Stadium                    |
+    | Peeragarhi              | Paschim Vihar West, Udyog Nagar                 |
+    | Paschim Vihar West      | Paschim Vihar East, Peeragarhi                  |
+    | Paschim VIhar East      | Madipur, Paschim Vihar West                     |
+    | Madipur                 | Shivaji Park, Paschim Vihar East                |
+    | Shivaji Park            | Punjabi Bagh, Madipur                           |
+    | Punjabi Bagh            | Ashok Park Main, Shivaji Park                   |
+    | Ashok Park Main         | Inderlok, Punjabi Bagh, Satguru Ram Singh Marg  |
+    | Inderlok                | Ashok Park Main                                 |
+    | Satguru Ram Singh Marg  | Kirti Nagar, Ashok Park Main                    |
+    | Kirti Nagar             | Satguru Ram Singh Marg                          |
+    +-------------------------+-------------------------------------------------+
 
 =head2 NOTE
 
@@ -114,8 +114,8 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License  (2.0). You may obtain a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

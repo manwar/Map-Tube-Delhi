@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Orange;
 
-$Map::Tube::Delhi::Line::Orange::VERSION   = '0.31';
+$Map::Tube::Delhi::Line::Orange::VERSION   = '0.32';
 $Map::Tube::Delhi::Line::Orange::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,28 +8,28 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Orange - Delhi Metro Orange Line stations.
+Map::Tube::Delhi::Line::Orange - Delhi Metro Map: Orange Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =head1 DESCRIPTION
 
-Delhi Metro Orange Line stations.
+Delhi Metro Map: Orange Line.
 
-    +--------------------+--------------------------------------+
-    |                    |                                      |
-    | Station Name       | Linked To                            |
-    |                    |                                      |
-    +--------------------+--------------------------------------+
-    | Dwarka Sector 21   | I. G. I. Airport                     |
-    | I. G. I. Airport   | Delhi Aero City, Dwarka Sector 21    |
-    | Delhi Aero City    | Dhaula Kuan, I. G. I. Airport        |
-    | Dhaula Kuan        | Shivaji Stadium, Delhi Aero City     |
-    | Shivaji Stadium    | New Delhi, Dhaula Kuan               |
-    | New Delhi          | Shivaji Stadium                      |
-    +--------------------+--------------------------------------+
+    +--------------------+------------------------------------------------------+
+    |                    |                                                      |
+    | Station Name       | Linked To                                            |
+    |                    |                                                      |
+    +--------------------+------------------------------------------------------+
+    | Dwarka Sector 21   | I. G. I. Airport                                     |
+    | I. G. I. Airport   | Delhi Aero City, Dwarka Sector 21                    |
+    | Delhi Aero City    | Dhaula Kuan, I. G. I. Airport                        |
+    | Dhaula Kuan        | Shivaji Stadium, Delhi Aero City                     |
+    | Shivaji Stadium    | New Delhi, Dhaula Kuan                               |
+    | New Delhi          | Shivaji Stadium                                      |
+    +--------------------+------------------------------------------------------+
 
 =head2 NOTE
 
@@ -104,8 +104,8 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License  (2.0). You may obtain a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

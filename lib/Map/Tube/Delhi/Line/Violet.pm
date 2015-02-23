@@ -1,6 +1,6 @@
 package Map::Tube::Delhi::Line::Violet;
 
-$Map::Tube::Delhi::Line::Violet::VERSION   = '0.31';
+$Map::Tube::Delhi::Line::Violet::VERSION   = '0.32';
 $Map::Tube::Delhi::Line::Violet::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,38 +8,38 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Delhi::Line::Violet - Delhi Metro Violet Line stations.
+Map::Tube::Delhi::Line::Violet - Delhi Metro Map: Violet Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =head1 DESCRIPTION
 
-Delhi Metro Violet Line stations.
+Delhi Metro Map: Violet Line.
 
-    +-----------------------+--------------------------------------+
-    |                       |                                      |
-    | Station Name          | Linked To                            |
-    |                       |                                      |
-    +-----------------------+--------------------------------------+
-    | Central Secretariate  | Khan Market                          |
-    | Khan Market           | JLN Stadium, Central Secretariate    |
-    | JLN Stadium           | Jangpura, Khan Market                |
-    | Jangpura              | Lajpat Nagar, JLN Stadium            |
-    | Lajpat Nagar          | Moolchand, Jangpura                  |
-    | Moolchand             | Kailash Colony, Lajpat Nagar         |
-    | Kailash Colony        | Nehru Place, Moolchand               |
-    | Nehru Place           | Kalkaji Mandir, Kailash Colony       |
-    | Kalkaji Mandir        | Govind Puri, Nehru Place             |
-    | Govind Puri           | Okhla, Kalkaji Mandir                |
-    | Okhla                 | Jasola - Apollo, Govind Puri         |
-    | Jasola - Apollo       | Sarita Vihar, Okhla                  |
-    | Sarita Vihar          | Mohan Estate, Jasola - Apollo        |
-    | Mohan Estate          | Tughlakabad, Sarita Vihar            |
-    | Tughlakabad           | Badarpur, Mohan Estate               |
-    | Badarpur              | Tughlakabad                          |
-    +-----------------------+--------------------------------------+
+    +-----------------------+---------------------------------------------------+
+    |                       |                                                   |
+    | Station Name          | Linked To                                         |
+    |                       |                                                   |
+    +-----------------------+---------------------------------------------------+
+    | Central Secretariate  | Khan Market                                       |
+    | Khan Market           | JLN Stadium, Central Secretariate                 |
+    | JLN Stadium           | Jangpura, Khan Market                             |
+    | Jangpura              | Lajpat Nagar, JLN Stadium                         |
+    | Lajpat Nagar          | Moolchand, Jangpura                               |
+    | Moolchand             | Kailash Colony, Lajpat Nagar                      |
+    | Kailash Colony        | Nehru Place, Moolchand                            |
+    | Nehru Place           | Kalkaji Mandir, Kailash Colony                    |
+    | Kalkaji Mandir        | Govind Puri, Nehru Place                          |
+    | Govind Puri           | Okhla, Kalkaji Mandir                             |
+    | Okhla                 | Jasola - Apollo, Govind Puri                      |
+    | Jasola - Apollo       | Sarita Vihar, Okhla                               |
+    | Sarita Vihar          | Mohan Estate, Jasola - Apollo                     |
+    | Mohan Estate          | Tughlakabad, Sarita Vihar                         |
+    | Tughlakabad           | Badarpur, Mohan Estate                            |
+    | Badarpur              | Tughlakabad                                       |
+    +-----------------------+---------------------------------------------------+
 
 =head2 NOTE
 
@@ -112,8 +112,8 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License  (2.0). You may obtain a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>
