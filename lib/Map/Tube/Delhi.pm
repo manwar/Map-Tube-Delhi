@@ -1,6 +1,6 @@
 package Map::Tube::Delhi;
 
-$Map::Tube::Delhi::VERSION   = '0.32';
+$Map::Tube::Delhi::VERSION   = '0.33';
 $Map::Tube::Delhi::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 =head1 VERSION
 
-Version 0.32
+Version 0.33
 
 =cut
 
@@ -148,8 +148,8 @@ L<http://search.cpan.org/dist/Map-Tube-Delhi/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain a  copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>
