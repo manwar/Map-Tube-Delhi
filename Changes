@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.34  Fri Jul 24 12:00:00 2015
+      - Upgraded to use Map::Tube v3.00.
+
 0.33  Sun Mar 01 11:30:00 2015
       - Added File::ShareDir::Install as configure requires in the Makefile.PL file.
 
