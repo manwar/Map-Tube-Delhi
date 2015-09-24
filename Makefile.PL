@@ -18,29 +18,29 @@ WriteMakefile(
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker'     => 0,
-        'File::ShareDir::Install' => 0,
+        'File::ShareDir::Install' => '0.09',
     },
     BUILD_REQUIRES   => {
-        'Test::More' => 0,
+        'Test::More' => '1.001014',
     },
     PREREQ_PM => {
         'Moo'              => '2.000000',
         'namespace::clean' => '0.24',
         'File::Share'      => '0.25',
-        'Map::Tube'        => '3.00',
+        'Map::Tube'        => '3.01',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Map-Tube-Delhi-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Map::Tube::Delhi'               => { file => 'lib/Map/Tube/Delhi.pm',             version => '0.34' },
-            'Map::Tube::Delhi::Line::Red'    => { file => 'lib/Map/Tube/Delhi/Line/Red.pm',    version => '0.34' },
-            'Map::Tube::Delhi::Line::Blue'   => { file => 'lib/Map/Tube/Delhi/Line/Blue.pm',   version => '0.34' },
-            'Map::Tube::Delhi::Line::Green'  => { file => 'lib/Map/Tube/Delhi/Line/Green.pm',  version => '0.34' },
-            'Map::Tube::Delhi::Line::Orange' => { file => 'lib/Map/Tube/Delhi/Line/Orange.pm', version => '0.34' },
-            'Map::Tube::Delhi::Line::Yellow' => { file => 'lib/Map/Tube/Delhi/Line/Yellow.pm', version => '0.34' },
-            'Map::Tube::Delhi::Line::Violet' => { file => 'lib/Map/Tube/Delhi/Line/Violet.pm', version => '0.34' },
+            'Map::Tube::Delhi'               => { file => 'lib/Map/Tube/Delhi.pm',             version => '0.35' },
+            'Map::Tube::Delhi::Line::Red'    => { file => 'lib/Map/Tube/Delhi/Line/Red.pm',    version => '0.35' },
+            'Map::Tube::Delhi::Line::Blue'   => { file => 'lib/Map/Tube/Delhi/Line/Blue.pm',   version => '0.35' },
+            'Map::Tube::Delhi::Line::Green'  => { file => 'lib/Map/Tube/Delhi/Line/Green.pm',  version => '0.35' },
+            'Map::Tube::Delhi::Line::Orange' => { file => 'lib/Map/Tube/Delhi/Line/Orange.pm', version => '0.35' },
+            'Map::Tube::Delhi::Line::Yellow' => { file => 'lib/Map/Tube/Delhi/Line/Yellow.pm', version => '0.35' },
+            'Map::Tube::Delhi::Line::Violet' => { file => 'lib/Map/Tube/Delhi/Line/Violet.pm', version => '0.35' },
         },
         resources => {
             repository => {
