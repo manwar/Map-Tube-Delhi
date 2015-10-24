@@ -18,7 +18,6 @@ t/map.t
 t/pod.t
 t/meta-yml.t
 t/meta-json.t
-t/generic.t
 t/red.t
 t/green.t
 t/red-green.t

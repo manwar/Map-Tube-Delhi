@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.36  Sat Oct 24 02:40:00 2015
+      - Upgraded to use Map::Tube v3.11.
+      - Added station index to the map data.
+
 0.35  Thu Sep 24 10:30:00 2015
       - Upgraded to use Map::Tube v3.01.
 
