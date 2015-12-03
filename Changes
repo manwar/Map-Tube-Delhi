@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Delhi
 
+0.37  Thu Dec 03 16:10:00 2015
+      - Upgraded to use Dist::Zilla, my first attempt.
+      - Used plugin Dist::Zilla::Plugin::Test::Map::Tube to add unit test script xt/map.t.
+
 0.36  Sat Oct 24 02:40:00 2015
       - Upgraded to use Map::Tube v3.11.
       - Added station index to the map data.
