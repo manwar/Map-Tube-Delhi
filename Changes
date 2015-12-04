@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.38  Fri Dec 04 09:50:00 2015
+      - Fixed issue RT: 110062 raised by SREZIC.
+
 0.37  Thu Dec 03 16:10:00 2015
       - Upgraded to use Dist::Zilla, my first attempt.
       - Used plugin Dist::Zilla::Plugin::Test::Map::Tube to add unit test script xt/map.t.
