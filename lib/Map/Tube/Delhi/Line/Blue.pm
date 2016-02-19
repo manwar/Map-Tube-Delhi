@@ -1,18 +1,11 @@
 package Map::Tube::Delhi::Line::Blue;
 
-$Map::Tube::Delhi::Line::Blue::VERSION   = '0.38';
-$Map::Tube::Delhi::Line::Blue::AUTHORITY = 'cpan:MANWAR';
-
 use 5.006;
 use strict; use warnings;
 
 =head1 NAME
 
 Map::Tube::Delhi::Line::Blue - Delhi Metro Map: Blue Line.
-
-=head1 VERSION
-
-Version 0.38
 
 =head1 DESCRIPTION
 

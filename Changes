@@ -1,5 +1,10 @@
 Revision history for Map-Tube-Delhi
 
+0.39  Fri Feb 19 16:10:00 2016
+      - Added dzil plugins [PkgVersion], [PodVersion] and [PkgAuthority] to the dist.ini file.
+      - Removed hardcoded $VERION and section "VERSION" from all the packages.
+      - Removed hardcoded $AUTHORITY from all the packages.
+
 0.38  Fri Dec 04 09:50:00 2015
       - Fixed issue RT: 110062 raised by SREZIC.
 
