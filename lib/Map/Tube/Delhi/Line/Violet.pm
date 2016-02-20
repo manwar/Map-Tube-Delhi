@@ -64,7 +64,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Delhi>
+L<https://github.com/manwar/Map-Tube-Delhi>
 
 =head1 BUGS
 

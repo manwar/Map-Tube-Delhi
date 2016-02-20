@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Delhi
 
+0.40  Sat Feb 20 09:15:00 2016
+      - Added plugin [Prereqs / TestRequires] to the dist.ini file.
+
 0.39  Fri Feb 19 16:10:00 2016
       - Added dzil plugins [PkgVersion], [PodVersion] and [PkgAuthority] to the dist.ini file.
       - Removed hardcoded $VERION and section "VERSION" from all the packages.
