@@ -40,6 +40,10 @@ given stations. It covers the following lines of Delhi Metro:
 
 For more information about Delhi Metro Map, get L<PDF|http://www.delhimetrorail.com/otherdocuments/route_map.pdf>.
 
+There is a very handy tool provided by L<Map::Tube::CLI> called C<map-tube> which
+exposes the  map  (and all other maps) from command line. Please refer to its pod
+document for more details.
+
 =head1 CONSTRUCTOR
 
 The constructor DO NOT expects parameters.This setup the default node definitions.
@@ -101,6 +105,10 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 =head1 REPOSITORY
 
 L<https://github.com/manwar/Map-Tube-Delhi>
+
+=head1 SEE ALSO
+
+L<Map::Tube::CLI>
 
 =head1 BUGS
 

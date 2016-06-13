@@ -1,5 +1,10 @@
 Revision history for Map::Tube::Delhi
 
+0.42  Mon Jun 13 09:50:00 2016
+      - Added section "SEE ALSO" to the pod document.
+      - Added more information about Map::Tube::CLI.
+      - Updated README file.
+
 0.41  Tue May 31 07:40:00 2016
       - Consolidated routes test file into one.
       - Updated copyright year information.
