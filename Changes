@@ -1,5 +1,9 @@
 Revision history for Map::Tube::Delhi
 
+0.43  Sun Jun 26 09:50:00 2016
+      - Upgraded to use Map::Tube v3.15 to address the CPAN Tester Fail Report:
+        http://www.cpantesters.org/cpan/report/0822a204-38a5-11e6-a16d-92a790c50306
+
 0.42  Mon Jun 13 09:50:00 2016
       - Added section "SEE ALSO" to the pod document.
       - Added more information about Map::Tube::CLI.
