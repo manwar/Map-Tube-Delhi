@@ -12,9 +12,7 @@ Map::Tube::Delhi::Line::Violet - Delhi Metro Map: Violet Line.
 Delhi Metro Map: Violet Line.
 
     +-----------------------+---------------------------------------------------+
-    |                       |                                                   |
     | Station Name          | Linked To                                         |
-    |                       |                                                   |
     +-----------------------+---------------------------------------------------+
     | Central Secretariate  | Khan Market                                       |
     | Khan Market           | JLN Stadium, Central Secretariate                 |

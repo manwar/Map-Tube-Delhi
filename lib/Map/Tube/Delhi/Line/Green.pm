@@ -12,9 +12,7 @@ Map::Tube::Delhi::Line::Green - Delhi Metro Map: Green Line.
 Delhi Metro Map: Green Line.
 
     +-------------------------+-------------------------------------------------+
-    |                         |                                                 |
     | Station Name            | Linked To                                       |
-    |                         |                                                 |
     +-------------------------+-------------------------------------------------+
     | Mundka                  | Rajdhani Park                                   |
     | Rajdhani Park           | Nangloi Railway Station, Mundka                 |

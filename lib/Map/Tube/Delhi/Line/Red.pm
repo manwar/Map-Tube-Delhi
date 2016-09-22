@@ -12,9 +12,7 @@ Map::Tube::Delhi::Line::Red - Delhi Metro Map: Red Line.
 Delhi Metro Map: Red Line.
 
     +-----------------------+---------------------------------------------------+
-    |                       |                                                   |
     | Station Name          | Linked To                                         |
-    |                       |                                                   |
     +-----------------------+---------------------------------------------------+
     | Rithala               | Rohini West                                       |
     | Rohini West           | Rithala, Rohini East                              |

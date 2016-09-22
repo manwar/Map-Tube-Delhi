@@ -12,9 +12,7 @@ Map::Tube::Delhi::Line::Orange - Delhi Metro Map: Orange Line.
 Delhi Metro Map: Orange Line.
 
     +--------------------+------------------------------------------------------+
-    |                    |                                                      |
     | Station Name       | Linked To                                            |
-    |                    |                                                      |
     +--------------------+------------------------------------------------------+
     | Dwarka Sector 21   | I. G. I. Airport                                     |
     | I. G. I. Airport   | Delhi Aero City, Dwarka Sector 21                    |

@@ -12,9 +12,7 @@ Map::Tube::Delhi::Line::Blue - Delhi Metro Map: Blue Line.
 Delhi Metro Map: Blue Line.
 
     +-------------------------+-------------------------------------------------+
-    |                         |                                                 |
     | Station Name            | Linked To                                       |
-    |                         |                                                 |
     +-------------------------+-------------------------------------------------+
     | Dwarka Sector 21        | Dwarka Sector 8                                 |
     | Dwarka Sector 8         | Dwarka Sector 9, Dwarka Sector 21               |

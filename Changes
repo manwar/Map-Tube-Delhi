@@ -1,5 +1,9 @@
 Revision history for Map::Tube::Delhi
 
+0.46  Thu Sep 22 10:35:00 2016
+      - Updated unit test scripts (t/meta-json.t and t/meta-yml.t).
+      - Cosmetics changes to the pod.
+
 0.45  Wed Aug 17 08:15:00 2016
       - Upgraded to use Map::Tube v3.18.
 
