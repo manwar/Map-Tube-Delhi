@@ -1,5 +1,9 @@
 Revision history for Map::Tube::Delhi
 
+0.49  Wed Dec 28 04:00:00 2016
+      - Removed dzil plugin [MetaResource] from dist.ini file.
+      - Built using Dist::Zilla::PluginBundle::MANWAR v0.07
+
 0.48  Sun Dec 25 15:00:00 2016
       - Built using Dist::Zilla::Plugin::Test::Map::Tube v0.12
 
