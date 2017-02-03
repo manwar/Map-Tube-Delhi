@@ -1,5 +1,9 @@
 Revision history for Map::Tube::Delhi
 
+0.50  Fri Feb 03 15:00:00 2017
+      - Auto generated LICENSE file using dzil plugin [License].
+      - Added copyright year information in the dist.ini file.
+
 0.49  Wed Dec 28 04:00:00 2016
       - Removed dzil plugin [MetaResource] from dist.ini file.
       - Built using Dist::Zilla::PluginBundle::MANWAR v0.07
