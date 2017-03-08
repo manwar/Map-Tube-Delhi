@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Delhi
 
+0.52  Wed Mar 08 12:20:00 2017
+      - Upgraded to use Map::Tube v3.28.
+
 0.51  Wed Feb 09 10:20:00 2017
       - Upgraded to use Map::Tube v3.22.
       - Changed map data file format to JSON.
