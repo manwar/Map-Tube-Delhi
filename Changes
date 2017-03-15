@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Delhi
 
+0.53  Wed Mar 15 13:40:00 2017
+      - Built using Dist::Zilla::Plugin::Test::Map::Tube v0.14
+
 0.52  Wed Mar 08 12:20:00 2017
       - Upgraded to use Map::Tube v3.28.
 
