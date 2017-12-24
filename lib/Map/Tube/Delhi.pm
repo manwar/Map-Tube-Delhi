@@ -11,7 +11,7 @@ use Data::Dumper;
 use File::Share ':all';
 
 use Moo;
-use namespace::clean;
+use namespace::autoclean;
 
 has json => (is => 'ro', default => sub { return dist_file('Map-Tube-Delhi', 'delhi-map.json') });
 
