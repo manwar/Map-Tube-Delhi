@@ -80,7 +80,8 @@ base64 encoded string of the entire map.
 
     my $metro = Map::Tube::Delhi->new;
     my $map   = $metro->name;
-    open(my $IMAGE, ">$map.png");
+    open(my $IMAGE, ">", $map.png")
+       or die "ERROR: Can't open [$map.png]: $!";
     binmode($IMAGE);
     print $IMAGE decode_base64($metro->as_image);
     close($IMAGE);
