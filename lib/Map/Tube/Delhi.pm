@@ -8,7 +8,7 @@ Map::Tube::Delhi - Interface to the Delhi Metro Map.
 
 use 5.006;
 use Data::Dumper;
-use File::Share ':all';
+use File::ShareDir 1.114 ':ALL';
 
 use Moo;
 use namespace::autoclean;
