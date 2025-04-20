@@ -38,7 +38,9 @@ given stations. It covers the following lines of Delhi Metro:
 
 =back
 
-For more information about Delhi Metro Map, get L<PDF|http://www.delhimetrorail.com/otherdocuments/route_map.pdf>.
+=head1 MAP DATA
+
+The map data collected from L<this document|http://www.delhimetrorail.com/otherdocuments/route_map.pdf>.
 
 There is a very handy tool provided by L<Map::Tube::CLI> called C<map-tube> which
 exposes the  map  (and all other maps) from command line. Please refer to its pod
