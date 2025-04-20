@@ -1,3 +1,19 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings FATAL => 'all';
+use Test::Map::Tube tests => 3;
+
+use Map::Tube::Delhi;
+
+my $map = Map::Tube::Delhi->new;
+
+ok_map($map);
+ok_map_functions($map);
+my @routes = <DATA>;
+ok_map_routes($map, \@routes);
+
+__DATA__
 Route 1|Dwarka Sector 8|I. G. I. Airport|Dwarka Sector 8,Dwarka Sector 21,I. G. I. Airport
 Route 2|New Delhi|Pragati Maidan|New Delhi,Rajiv Chowk,Barakhamba Road,Mandi House,Pragati Maidan
 Route 3|Dwarka|Nawada|Dwarka,Dwarka Mor,Nawada
